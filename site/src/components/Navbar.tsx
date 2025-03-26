@@ -9,18 +9,18 @@ export default function Navbar() {
   return (
     <>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar component="nav" style={{backgroundColor: "#8FFF8A"}}>
         <Toolbar>
           <Typography
             variant="h6"
-            sx={{ flexGrow: 0, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 0, display: { xs: 'none', sm: 'block', color: 'black'} }}
           >
             Plants vs Zombies
           </Typography>
           <Box sx={ {flexGrow: 1 } }></Box>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <Button key="Home" sx={{ color: '#fff' }} href='/'>Home</Button>
-            <Button key="About" sx={{ color: '#fff' }} href='/about'>About</Button>
+            <Button key="Home" sx={{ color: 'black' }} href='/'>Home</Button>
+            <Button key="About" sx={{ color: 'black' }} href='/about'>About</Button>
           </Box>
         </Toolbar>
       </AppBar>
