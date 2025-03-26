@@ -13,7 +13,7 @@ export default function UserSelect() {
   };
 
   return (
-    <Box sx={{ minWidth: 200 }}>
+    <Box sx={{ display: 'inline-flex', minWidth: 200, padding: '5%'}}>
       <FormControl fullWidth>
         <InputLabel id="Label-Selector" defaultValue={'Plants'}></InputLabel>
         <Select
