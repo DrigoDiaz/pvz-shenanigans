@@ -7,10 +7,20 @@ import Button from '@mui/material/Button';
 import { useTheme } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import NavbarMenu from './NavbarMenu';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const navigate = useNavigate();
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+
+  function handleHome() {
+    navigate('/');
+  }
+
+  function handleAbout() {
+    navigate('/about');
+  }
 
   return (
     <>
@@ -41,8 +51,8 @@ export default function Navbar() {
               </Typography>
               <Box sx={{ flexGrow: 1 }}></Box>
               <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                <Button key="Home" sx={{ color: 'white', fontFamily: "Montserrat" }} href='/'>Home</Button>
-                <Button key="About" sx={{ color: 'white', fontFamily: "Montserrat" }} href='/about'>About</Button>
+                <Button key="Home" sx={{ color: 'white', fontFamily: "Montserrat" }} onClick={handleHome}>Home</Button>
+                <Button key="About" sx={{ color: 'white', fontFamily: "Montserrat" }} onClick={handleAbout}>About</Button>
               </Box>
             </>
           )}
