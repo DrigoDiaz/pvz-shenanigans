@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { GitHub } from '@mui/icons-material';
 import katImage from '../assets/potato.jpg';
+import drigoImage from '../assets/pea_vine.png';
 
 export default function About() {
     function handleKat() {
@@ -25,7 +26,11 @@ export default function About() {
             }}
         >
             <Typography variant="body1" display='inline-block' sx={{width: '75%'}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            This website was made as a Spring Break project during 2025. We wanted to create a simple experience for users who wanted to learn some information of both the units & enemies from Pvz (Plants vs Zombies) 2.
+
+            <br></br>
+            <br></br>
+            Hopefully you had a good time browsing through our website and continue protecting your lawns!
             </Typography>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '25vh', minWidth: '100vw', flexDirection: { xs: 'column', md: 'row' }, gap: 10, marginBottom: '10%', marginTop: '10%'}}>
@@ -51,7 +56,7 @@ export default function About() {
             <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
                     sx={{ height: 140 }}
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image={drigoImage}
                     title="green iguana"
                 />
                 <CardContent>
@@ -59,8 +64,8 @@ export default function About() {
                         Rodrigo
                     </Typography>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        Currently a senior studying Informatics with a specialization in Human-Computer Interaction.
+                        I enjoy gaming and working on projects as well!
                     </Typography>
                 </CardContent>
                 <CardActions>
