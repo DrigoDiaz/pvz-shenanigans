@@ -26,7 +26,7 @@ export default function About() {
             }}
         >
             <Typography variant="body1" display='inline-block' sx={{width: '75%'}}>
-            This website was made as a Spring Break project during 2025. We wanted to create a simple experience for users who wanted to learn some information of both the units & enemies from Pvz (Plants vs Zombies) 2.
+            This website was made as a Spring Break project during 2025. We wanted to create a simple experience for users who wanted to learn some information of both the units & enemies from PvZ (Plants vs Zombies) 2.
 
             <br></br>
             <br></br>
@@ -57,7 +57,7 @@ export default function About() {
                 <CardMedia
                     sx={{ height: 140 }}
                     image={drigoImage}
-                    title="green iguana"
+                    title="pea vine"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
