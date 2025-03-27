@@ -1,9 +1,7 @@
 # pvz-shenanigans
 
-http://DrigoDiaz.github.io/pvz-shenanigans
-
 # About
-A site by [Katrina Mizuo](https://github.com/k1tk4t5) and [Rodrigo Diaz](https://github.com/DrigoDiaz) about the game Plants vs Zombies, built with React and the [PVZ API](https://pvz-2-api.vercel.app/docs#information).
+A site by [Kat](https://github.com/k1tk4t5) and [Drigo](https://github.com/DrigoDiaz) about the game Plants vs Zombies, built with React and the [PVZ API](https://pvz-2-api.vercel.app/docs#information).
 
 ## Locally running the site
 ### 1. Download repo
