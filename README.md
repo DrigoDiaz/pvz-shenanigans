@@ -3,6 +3,9 @@
 # About
 A site by [Kat](https://github.com/k1tk4t5) and [Drigo](https://github.com/DrigoDiaz) about the game Plants vs Zombies, built with React and the [PVZ API](https://pvz-2-api.vercel.app/docs#information).
 
+## Visiting the live site
+Our live site is located at https://pvz-website.onrender.com/.
+
 ## Locally running the site
 ### 1. Download repo
 First, download this repo locally by running
