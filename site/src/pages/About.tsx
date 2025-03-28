@@ -33,7 +33,7 @@ export default function About() {
             Hopefully you had a good time browsing through our website and continue protecting your lawns!
             </Typography>
         </Box>
-        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '25vh', minWidth: '100vw', flexDirection: { xs: 'column', md: 'row' }, gap: 10, marginBottom: '10%', marginTop: '10%'}}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '25vh', minWidth: '100vw', flexDirection: { xs: 'column', md: 'row' }, gap: 10, marginBottom: '10%', marginTop: '5%'}}>
             <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
                     sx={{ height: 140 }}
