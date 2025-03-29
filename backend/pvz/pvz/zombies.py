@@ -395,13 +395,157 @@ zombiedata = {
         "world" : "Pirate Seas",
         "special" : "Spawns Pirate Seas zombies, can charge at plants, and can fire a show of imps into your defenses"
         },
+    "cowboy zombie" : {
+        "name" : "Cowboy Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Cowboy Zombie thinks he's the roughest, toughest, meanest zombie varmint in the west, south, and east. He's anxious to test his skills in the central coast region.",
+        "image" : "/assets/zombies/cowboy zombie.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "conehead cowboy" : {
+        "name" : "Conehead Cowboy",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "The sheriff of these here parts. Please pull over the horse and pull out your driver's license, registration, and proof of brains.",
+        "image" : "/assets/zombies/conehead cowboy.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "buckethead cowboy" : {
+        "name" : "Buckethead Cowboy",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "A five-time winner of the temporal chili cook-off. Those Egyptian zombies don't know their chili, but Cowboys love their beans. The more you eat, the more you brains.",
+        "image" : "/assets/zombies/buckethead cowboy.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "cart-head zombie" : {
+        "name" : "Cart-Head Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "Cart-Head Zombie could probably move a lot faster if he did a handstand and rolled, but he's not thinking that far ahead.",
+        "image" : "/assets/zombies/cart-head zombie.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "flag cowboy zombie" : {
+        "name" : "Flag Cowboy Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "The Lone Brainer leads the way.",
+        "image" : "/assets/zombies/flag cowboy zombie.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "cowboy rally zombie" : {
+        "name" : "Cowboy Rally Zombie",
+        "toughness" : "Dense",
+        "speed" : "Speedy",
+        "description" : "Arrows point to the brain on Cowboy Rally's Flag, as if to say, 'Hey, everyone, I would like to emphasize this image.' It's canny design.",
+        "image" : "/assets/zombies/cowboy rally zombie.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "prospector zombie" : {
+        "name" : "Prospector Zombie",
+        "toughness" : "Average",
+        "speed" : "Stiff",
+        "description" : "'There once was a zombie who got old, spending all his day looking for gold. 'Til one day in the rain, he finally ate the brains… and, wait, where's his other shoe?'",
+        "image" : "/assets/zombies/prospector zombie.png",
+        "world" : "Wild West",
+        "special" : "Appears on the left side of the lawn if their dynamite goes off"
+        },
+    "pianist zombie" : {
+        "name" : "Pianist Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Creeper",
+        "description" : "Pianist Zombie only knows two songs, and they're both groaners.",
+        "image" : "/assets/zombies/pianist zombie.png",
+        "world" : "Wild West",
+        "special" : "Crushes plants that it comes in contact with and makes cowboys switch lanes."
+        },
+    "poncho zombie" : {
+        "name" : "Poncho Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "The grate is his most prized possession. The poncho is there just to protect it from getting rusty. Also, he's looking for his mechanical horse.",
+        "image" : "/assets/zombies/poncho zombie.png",
+        "world" : "Wild West",
+        "special" : "Sometimes wears a protective metal grate"
+        },
+    "chicken wrangler zombie" : {
+        "name" : "Chicken Wrangler Zombie",
+        "toughness" : "Solid",
+        "speed" : "Hungry",
+        "description" : "After publishing the fourth study on Ornithology, and four years of research at the Hadron Collider, Chicken Wrangler Zombie has finally solved the riddle of what came first.",
+        "image" : "/assets/zombies/chicken wrangler zombie.png",
+        "world" : "Wild West",
+        "special" : "Summons a flock of zombie chickens when damaged"
+        },
+    "zombie chicken" : {
+        "name" : "Zombie Chicken",
+        "toughness" : "Fragile",
+        "speed" : "Flighty",
+        "description" : "Ba-qwack!",
+        "image" : "/assets/zombies/zombie chicken.png",
+        "world" : "Wild West",
+        "special" : "Summoned by a Chicken Wrangler Zombie"
+        },
+    "zombie bull" : {
+        "name" : "Zombie Bull",
+        "toughness" : "Hardened",
+        "speed" : "Stiff",
+        "description" : "He's not an angry bull. He loves flowers, playing in the fields, sitting in the trees, and long walks across the pasture. He wants to settle down when he meets the right cow. Too bad he's a robot.",
+        "image" : "/assets/zombies/zombie bull.png",
+        "world" : "Wild West",
+        "special" : "Takes a bit to charge up. When it encounters a plant, it launches a Zombie Bull Rider into your defenses."
+        },
+    "rodeo legend zombie" : {
+        "name" : "Rodeo Legend Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Hungry",
+        "description" : "'Legend' perhaps overstates Rodeo Legend Zombie's status in the rodeo world. Don't tell him that, though, unless you're desperate to hear an hour-long tirade about calf-roping.",
+        "image" : "/assets/zombies/rodeo legend zombie.png",
+        "world" : "Wild West",
+        "special" : "Takes a bit to charge up. When it encounters a plant it tackles it and then launches a Zombie Bull Rider into your defenses."
+        },
+    "zombie bull rider" : {
+        "name" : "Zombie Bull Rider",
+        "toughness" : "Average",
+        "speed" : "Hungry",
+        "description" : "Had dreams of becoming a rodeo clown but found the clown make-up to just be too creepy.",
+        "image" : "/assets/zombies/zombie bull rider.png",
+        "world" : "Wild West",
+        "special" : "n/a"
+        },
+    "wild west gargantuar" : {
+        "name" : "Wild West Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Hungry",
+        "description" : "Likes candy.",
+        "image" : "/assets/zombies/wild west gargantuar.png",
+        "world" : "Wild West",
+        "special" : "Crushes plants with its brand and launches a Zombie Bull Rider when damaged."
+        },
+    "zombot war wagon" : {
+        "name" : "Zombot War Wagon",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "Ranchers and farmhands, abandon your fields. Rumbling down the dusty trail, this wagon was engineered to strike fear into the heart of any horticulturist who should encounter it. Dr. Zomboss normally doesn't take any bull, but this time he made an exception.",
+        "image" : "/assets/zombies/zombot war wagon.png",
+        "world" : "Wild West",
+        "special" : "Spawns Wild West zombies, can charge at plants, and fires 4 missles to targets on mine crats"
+        },
     "" : {
         "name" : "",
         "toughness" : "",
         "speed" : "",
         "description" : "",
         "image" : "/assets/zombies/.png",
-        "world" : "",
-        "special" : ""
+        "world" : "Wild West",
+        "special" : "n/a"
         },
 }

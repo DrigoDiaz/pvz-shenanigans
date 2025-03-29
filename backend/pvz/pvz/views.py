@@ -202,7 +202,23 @@ def all_zombies(request):
             "zombie parrot",
             "imp pirate zombie",
             "gargantuar pirate",
-            "zombot plank walker"
+            "zombot plank walker",
+            "cowboy zombie",
+            "conehead cowboy",
+            "buckethead cowboy",
+            "cart-head zombie",
+            "flag cowboy zombie",
+            "cowboy rally zombie",
+            "prospector zombie",
+            "pianist zombie",
+            "poncho zombie",
+            "chicken wrangler zombie",
+            "zombie chicken",
+            "zombie bull",
+            "rodeo legend zombie",
+            "zombie bull rider",
+            "wild west gargantuar",
+            "zombot war wagon"
         ]
     return JsonResponse({"message": "Successfully retrived all zombies!", "zombies" : zombies}, status=200)
 
