@@ -1,4 +1,4 @@
-from .views import all_plants
+from .views import all_plants, plant_info
 
 """
 URL configuration for pvz project.
@@ -21,5 +21,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('plants/all', all_plants)
+    path('plants/all', all_plants),
+    path('plants/', plant_info)
 ]
