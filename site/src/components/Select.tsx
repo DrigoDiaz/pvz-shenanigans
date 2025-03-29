@@ -6,7 +6,7 @@ import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 export default function UserSelect() {
-  const [side, sideSelect] = useState('');
+  const [side, sideSelect] = useState('Plants');
 
   const handleChange = (event: SelectChangeEvent) => {
     sideSelect(event.target.value);

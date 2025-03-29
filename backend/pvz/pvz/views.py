@@ -1,5 +1,6 @@
 from django.http import JsonResponse
 from .plants import plantdata
+from .zombies import zombiedata
 
 def all_plants(request):
     if request.method == "GET":
@@ -152,3 +153,62 @@ def plant_info(request):
             return JsonResponse(plantdata[request.GET["name"]], status=200)
         except:
             return JsonResponse({"message": "Error finding plant in database"}, status=500)
+
+def all_zombies(request):
+    if request.method == "GET":
+        print("Getting all zombies")
+        zombies = [
+            "basic zombie",
+            "conehead zombie",
+            "buckethead zombie",
+            "brickhead zombie",
+            "flag zombie",
+            "rally zombie",
+            "balloon zombie",
+            "all-star zombie",
+            "super-fan imp",
+            "newspaper zombie",
+            "sunday edition zombie",
+            "imp",
+            "gargantuar",
+            "mummy zombie",
+            "conehead mummy",
+            "buckethead mummy",
+            "pyramid-head zombie",
+            "flag mummy zombie",
+            "egypt rally zombie",
+            "ra zombie",
+            "camel zombies",
+            "explorer zombie",
+            "torchlight zombie",
+            "tomb raiser zombie",
+            "pharaoh zombie",
+            "imp mummy",
+            "mummified gargantuar",
+            "zombot sphinx-inator",
+            "pirate zombie",
+            "conehead pirate",
+            "buckethead pirate",
+            "barrelhead zombie",
+            "flag pirate zombie",
+            "jolly roger zombie",
+            "swashbuckler zombie",
+            "seagull zombie",
+            "pelican zombie",
+            "barrel roller zombie",
+            "imp cannon",
+            "pirate captain zombie",
+            "zombie parrot",
+            "imp pirate zombie",
+            "gargantuar pirate",
+            "zombot plank walker"
+        ]
+    return JsonResponse({"message": "Successfully retrived all zombies!", "zombies" : zombies}, status=200)
+
+def zombie_info(request):
+    if request.method == "GET":
+        print(request.GET["name"])
+        try:
+            return JsonResponse(zombiedata[request.GET["name"]], status=200)
+        except:
+            return JsonResponse({"message": "Error finding zombie in database."}, status=500)
