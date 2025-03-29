@@ -1,0 +1,29 @@
+# Backend gitignore
+backend/venv/*
+backend/pvz/pvz/__pycache__/*
+
+# site (frontend) gitignore
+# Logs
+site/logs
+site/*.log
+site/npm-debug.log*
+site/yarn-debug.log*
+site/yarn-error.log*
+site/pnpm-debug.log*
+site/lerna-debug.log*
+
+site/node_modules
+site/dist
+site/dist-ssr
+site/*.local
+
+# Editor directories and files
+site/.vscode/*
+site/!.vscode/extensions.json
+site/.idea
+site/.DS_Store
+site/*.suo
+site/*.ntvs*
+site/*.njsproj
+site/*.sln
+site/*.sw?
