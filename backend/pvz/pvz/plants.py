@@ -133,6 +133,7 @@ plantdata = {
         "toughness": 300,
         "range": "Close",
         "powerup": "Duration",
+        "family" : "Enforce-mint",
         "description": "Bonk Choys rapidly punch nearby enemies that are ahead or behind them.",
         "image": "/assets/plants/Bonk Choy.png"
         },
@@ -465,6 +466,7 @@ plantdata = {
         "recharge": "30 seconds",
         "special": "creates sun every 20 seconds",
         "usage": "Single use,instant",
+        "family" : "Enlighten-mint",
         "description": "Gold Leaves create a Gold Tile on planting.",
         "image": "/assets/plants/Gold Leaf.png"
         },
@@ -706,6 +708,7 @@ plantdata = {
         "recharge": "5 seconds",
         "toughness": "300 damage per shot",
         "usage": "Can also be planted under non-aquatic plants",
+        "family" : "Contain-mint",
         "description": "Lily Pads let you plant non-aquatic plants on top of them.",
         "image": "/assets/plants/Lily Pad.png"
         },
@@ -874,6 +877,7 @@ plantdata = {
         "sun cost": "150",
         "recharge": "30 seconds",
         "usage": "Hypnotizes all dinosaurs in a lane",
+        "family" : "Ail-mint",
         "description": "Perfume-shrooms enchant dinosaurs and charm them into working against the zombies.",
         "image": "/assets/plants/Perfume-shroom.png"
         },
@@ -892,6 +896,7 @@ plantdata = {
         "sun cost": "175",
         "recharge": "60 seconds",
         "usage": "Single use, instant",
+        "family" : "Enchant-mint",
         "description": "Power Lilies create one Plant Food out of thin air.",
         "image": "/assets/plants/Power Lily.png"
         },
@@ -1338,6 +1343,7 @@ plantdata = {
         "sun cost": "0(First Tile Turnip) , 250 (price shown in almanc)",
         "recharge": 10,
         "usage": "Single use, instant",
+        "family" : "Enchant-mint",
         "description": "Tile Turnips create a Power Tile on planting.",
         "image": "/assets/plants/Tile Turnip.png"
         },
