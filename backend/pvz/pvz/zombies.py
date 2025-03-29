@@ -539,13 +539,400 @@ zombiedata = {
         "world" : "Wild West",
         "special" : "Spawns Wild West zombies, can charge at plants, and fires 4 missles to targets on mine crats"
         },
+    "cave zombie" : {
+        "name" : "Cave Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Cave Zombie was busy painting handprints on cave walls when he was told to start fighting plants. He's not sure why he's fighting plants, but he hopes he can get back to painting soon. He was feeling inspired. He had plans for some big pieces. Art school was finally paying off.",
+        "image" : "/assets/zombies/cave zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "n/a"
+        },
+    "cave conehead zombie" : {
+        "name" : "Cave Conehead Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Cave Conehead Zombie was the first zombie to invent the cone. He lashed the horn of a mammoth to a slab of petrified wood ... and boom! A cone! The invention of the cone changed everything for the zombies. EVERYTHING.",
+        "image" : "/assets/zombies/cave conehead zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "n/a"
+        },
+    "cave buckethead zombie" : {
+        "name" : "Cave Buckethead Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "Cave Buckethead Zombie likes rocks. He likes rocks A LOT. He strapped a rock to his head and called it a bucket. None of the other Cave Zombies know a 'bucket' is, but they like his style.",
+        "image" : "/assets/zombies/cave buckethead zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "n/a"
+        },
+    "blockhead zombie" : {
+        "name" : "Blockhead Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "One day, a Cave Zombie fell head-first into a glacial stream. It had been a bad day already, so he lay there in the frigid water for a long time contemplating the insignificance of his life. When he finally stood up, he discovered that his head was encased in ice. At last, his life had meaning! He was unique! He was Blockhead Zombie! At least, that's his story and he's sticking to it.",
+        "image" : "/assets/zombies/blockhead zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "n/a"
+        },
+    "cave flag zombie" : {
+        "name" : "Cave Flag Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Cave Flag Zombie has been in the flag-carrying business for a long time. It's been his life's work. He's good at it. But sometimes, just sometimes, he longs for a change. He wonders if he could be good at something else. He wonders if he could leave it all behind and start fresh. He's pretty sure he's having a mid-life crisis.",
+        "image" : "/assets/zombies/cave flag zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "n/a"
+        },
+    "hunter zombie" : {
+        "name" : "Hunter Zombie",
+        "toughness" : "Dense",
+        "speed" : "Creepr",
+        "description" : "Shhhhh ... Hunter Zombie didn't actually kill that sabertooth tiger. He found the skin at a thrift store. Also, he's a vegetarian. Tell no one.",
+        "image" : "/assets/zombies/hunter zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "Throws snowballs that aim to freeze your plants"
+        },
+    "dodo rider zombie" : {
+        "name" : "Dodo Rider Zombie",
+        "toughness" : "Protected",
+        "speed" : "Speedy",
+        "description" : "Dodo Rider believes dodos are the future of transportation. He believes a public dodo-riding system is not only a wise expenditure of tax dollars but would help the vast majority of zombies get where they need to go more efficiently. Everyone keeps telling him there's no future in dodos, but he refuses to listen.",
+        "image" : "/assets/zombies/dodo rider zombie.png",
+        "world" : "Frostbite Caves",
+        "special" : "Can occasionally fly over obstacles"
+        },
+    "troglobite" : {
+        "name" : "Troglobite",
+        "toughness" : "Dense",
+        "speed" : "Basic",
+        "description" : "Troglobite has been pushing ice blocks across the tundra day in and day out for as long as he can remember. It's cold and exhausting work, and frankly, he's ready for a vacation. He'd like to go somewhere sunny and warm for a change. He'd like to relax in the sand. He hears Big Wave Beach is nice this time of year.",
+        "image" : "/assets/zombies/troglobite.png",
+        "world" : "Frostbite Caves",
+        "special" : "Pushes frozen blocks that can crush plants"
+        },
+    "weasel hoarder" : {
+        "name" : "Weasel Hoarder",
+        "toughness" : "Solid",
+        "speed" : "Basic",
+        "description" : "Weasel Hoarder claims she's the one who wrote the song 'Pop! Goes the Weasel.' And for eons now, she's been demanding royalties for it. But everyone just ignores her. They know what Weasel Hoarder can't even carry a tune, much less write a catchy ditty about the sound of vermin make when hugged a bit too tightly.",
+        "image" : "/assets/zombies/weasel hoarder.png",
+        "world" : "Frostbite Caves",
+        "special" : "Releases Zombie Ice Weasels when damaged"
+        },
+    "ice weasel" : {
+        "name" : "Ice Weasel",
+        "toughness" : "Fragile",
+        "speed" : "Flighty",
+        "description" : "Skweek-ka-REE!",
+        "image" : "/assets/zombies/ice weasel.png",
+        "world" : "Frostbite Caves",
+        "special" : "Summoned by Weasel Hoarder Zombie"
+        },
+    "yeti imp" : {
+        "name" : "Yeti Imp",
+        "toughness" : "Average",
+        "speed" : "Hungry",
+        "description" : "Yeti Imp recently took up knitting. He started with a scarf, moved to mittens and eventually knitted an entire bodysuit out of hair he shaved off of Yeti Zombie. He just loves knitting. When those needles are in his hands, he feels a sense of calm he's never felt before.",
+        "image" : "/assets/zombies/yeti imp.png",
+        "world" : "Frostbite Caves",
+        "special" : "n/a"
+        },
+    "sloth gargantuar" : {
+        "name" : "Sloth Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Hungry",
+        "description" : "Somewhere along the line, Sloth Gargantuar contracted a bad case of Yeti Imps. He used soap, medicinal powders, and a salve made from sloth slobber in an attempt to get rid of them ... to no avail. But the truth is, he's grown used to their presence. The darn things are itchy. They're always squabbling. They nag him endlessly. But at this point, he'd probably miss them if they ever cleared up.",
+        "image" : "/assets/zombies/sloth gargantuar.png",
+        "world" : "Frostbite Caves",
+        "special" : "Crushes plants with its icicle and launches Yeti Imps when damaged."
+        },
+    "zombot tuskmaster 10,000 bc" : {
+        "name" : "Zombot Tuskmaster 10,000 BC",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "Dr. Zomboss was real impressed with himself when he came up with the idea to build a weaponized woolly mammoth with the power to blast snow and ice out of its mechanical trunk. But what Dr. Zomboss didn't realize until it was too late: He's allergic to mammoth fur. Now he has to load up on allergy medication every time he wants to take the darn thing out for a spin.",
+        "image" : "/assets/zombies/zombot tuskmaster 10,000 bc.png",
+        "world" : "Frostbite Caves",
+        "special" : "Spawns Frostbite Caves zombies, covers itself in ice, blows cold wind to plants, and launches ice blocks to destroy plants"
+        },
+    "adventurer zombie" : {
+        "name" : "Adventurer Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Adventurer Zombie just went looking for jolly good show and somehow ended up in the Lost City. 'Hmm. Yes. Quite.' is all that he would say on the matter.",
+        "image" : "/assets/zombies/adventurer zombie.png",
+        "world" : "Lost City",
+        "special" : "n/a"
+        },
+    "conehead adventurer zombie" : {
+        "name" : "Conehead Adventurer Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "No one ever presumes that he's Dr. Unlivingstone. Just once, though he wish that someone would.",
+        "image" : "/assets/zombies/conehead adventurer zombie.png",
+        "world" : "Lost City",
+        "special" : "n/a"
+        },
+    "buckethead adventurer zombie" : {
+        "name" : "Buckethead Adventurer Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "Buckethead Adventurer's greatest discovery was that one morning, without warning or reason, there was a bucket on his head.",
+        "image" : "/assets/zombies/buckethead adventurer zombie.png",
+        "world" : "Lost City",
+        "special" : "n/a"
+        },
+    "flag adventurer zombie" : {
+        "name" : "Flag Adventurer Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Flag Adventurer Zombie is always shouting 'Tally ho!' as he leads the charge. At least, he's shouting it in his head.",
+        "image" : "/assets/zombies/flag adventurer zombie.png",
+        "world" : "Lost City",
+        "special" : "n/a"
+        },
+    "lost pilot zombie" : {
+        "name" : "Lost Pilot Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "He faked his pilot's license and figured nobody would notice. But they did.",
+        "image" : "/assets/zombies/lost pilot zombie.png",
+        "world" : "Lost City",
+        "special" : "Drops in from the sky and lands in the middle of the lawn."
+        },
+    "excavator zombie" : {
+        "name" : "Exacavator Zombie",
+        "toughness" : "Protected",
+        "speed" : "Speedy",
+        "description" : "Excavator Zombie once heard a song about having a hammer. He liked the idea, but decided it was too mainstream for him - so he got a shovel. Now he's confident that he's clearly the coolest zombie, the others are just too jealous to admit it.",
+        "image" : "/assets/zombies/excavator zombie.png",
+        "world" : "Lost City",
+        "special" : "Blocks incoming projectiles with a weakness to lobbed shots. They also can dig up plants and launch them deeper within the lawn."
+        },
+    "parasol zombie" : {
+        "name" : "Parasol Zombie",
+        "toughness" : "Protected",
+        "speed" : "Hungry",
+        "description" : "Wealthy beyond reason, the Parasol Zombie lived a life of luxury - when what she craved was a life of adventure. She funded the expedition to the Lost City and set out to see its wonders for herself, never forgetting to bring her trusty parasol. 'In case it rains,' she explained - but it only came out sounding like 'Brains'.",
+        "image" : "/assets/zombies/parasol zombie.png",
+        "world" : "Lost City",
+        "special" : "Protects herself from lobbed projectiles thanks to her parasol."
+        },
+    "bug zombie" : {
+        "name" : "Bug Zombie",
+        "toughness" : "Solid",
+        "speed" : "Speedy",
+        "description" : "Bug Zombie and Bug make a great team. Partly because Bug gives Bug Zombie great mobility, but mostly because they share an intense disinterest in horses.",
+        "image" : "/assets/zombies/bug zombie.png",
+        "world" : "Lost City",
+        "special" : "Flies off the ground protecting it from ground obstabcles."
+        },
+    "imp porter" : {
+        "name" : "Imp Porter",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Imp Porter is stronger than he looks. He's also more charming, smarter and has a better education.",
+        "image" : "/assets/zombies/imp porter.png",
+        "world" : "Lost City",
+        "special" : "Drops his pack on a gold tile, converting it into a tent, which spawns zombies."
+        },
+    "relic hunter zombie" : {
+        "name" : "Relic Hunter Zombie",
+        "toughness" : "Dense",
+        "speed" : "Stiff",
+        "description" : "Relic Hunter has hunted some pretty impressive relic in his days. Idols, antiques, curios... he's hunted 'em all.",
+        "image" : "/assets/zombies/relic hunter zombie.png",
+        "world" : "Lost City",
+        "special" : "Swings into your defenses."
+        },
+    "turquoise skull zombie" : {
+        "name" : "Turquoise Skull Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Unlike the more famous crystal skulls, turquoise skulls are totally non-mysterious and common as dirt.",
+        "image" : "/assets/zombies/turqoise skull zombie.png",
+        "world" : "Lost City",
+        "special" : "Steals sun and uses that to unleash a destructive beam. The range of the beam increases with more sun that is stolen."
+        },
+    "lost city imp zombie" : {
+        "name" : "Lost City Imp Zombie",
+        "toughness" : "Average",
+        "speed" : "Hungry",
+        "description" : "Nepotism got Lost City Imp where he is. He's Bug Zombie's second cousin thrice removed, but he parlayed that connection into a sweet gig getting carried around in a little box.",
+        "image" : "/assets/zombies/lost city imp zombie.png",
+        "world" : "Lost City",
+        "special" : "n/a"
+        },
+    "porter gargantuar" : {
+        "name" : "Porter Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Hungry",
+        "description" : "Porter Gargantuar dreams of the discovery that will make him powerful and influential. Maybe then the Imps will be the one carrying him around. It's always nice to have dreams.",
+        "image" : "/assets/zombies/porter gargantuar.png",
+        "world" : "Lost City",
+        "special" : "Crushes plants with its torch and launches a Lost City Imp Zombie when damaged."
+        },
+    "zombot aerostatic gondola" : {
+        "name" : "Zombot Aerostatic Gondola",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "After repeated failures with variously robotic engines of destruction, Dr. Zomboss decided to go with a kinder, more eco-friendly lighter-than-air-option to sow disaster and discord.",
+        "image" : "/assets/zombies/zombot aerostatic gondola.png",
+        "world" : "Lost City",
+        "special" : "Spawns Lost City zombies, calls in Lost Pilot Zombies, and drops bags of sand on flame tiles to incinerate a row of plans."
+        },
+    "future zombie" : {
+        "name" : "Future Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Future zombies look good in red shirts. Future fact #23: Nothing bad happens to red shirts.",
+        "image" : "/assets/zombies/future zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "future conehead zombie" : {
+        "name" : "Future Conehead Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "He tried to calculate the volume of his mathematically perfect cone, but he always ends up dreaming about brain π.",
+        "image" : "/assets/zombies/future conehead zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "future buckethead zombie" : {
+        "name" : "Future Buckethead Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "Other zombies call him old-fashioned for being nostalgic for the year 2008. It was a simpler time when brains were brains, zombies were zombies, and those punk plants kept to themselves.",
+        "image" : "/assets/zombies/future buckethead zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "holo head zombie" : {
+        "name" : "Holo Head Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "The force field gets a unique color from frequency harmonics and a liberal dose of purple paint.",
+        "image" : "/assets/zombies/holo head zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "future flag zombie" : {
+        "name" : "Future Flag Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Sometimes Future Flag Zombie regrets having to be at the bleeding edge of zombie wave advancement technology.",
+        "image" : "/assets/zombies/future flag zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "robo rally zombie" : {
+        "name" : "Robo Rally Zombie",
+        "toughness" : "Protected",
+        "speed" : "Speedy",
+        "description" : "If you look carefully, you'll notice that Robo-Rally Zombie's flag is a sophisticated piece of hovertech combined with a stick.",
+        "image" : "/assets/zombies/robo rally zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "jetpack zombie" : {
+        "name" : "Jetpack Zombie",
+        "toughness" : "Solid",
+        "speed" : "Speedy",
+        "description" : "The Jetpack Zombie was an early adopter during the brain acquisition tech explosion of 2113. Little did he know he would be stuck with version 1.0 of the simple jetpack.",
+        "image" : "/assets/zombies/jetpack zombie.png",
+        "world" : "Far Future",
+        "special" : "Floats over low plants, boosts over most other plants"
+        },
+    "disco jetpack zombie" : {
+        "name" : "Disco Jetpac Zombie",
+        "toughness" : "Solid",
+        "speed" : "Speedy",
+        "description" : "A zombie who 'lives' for drama, he's an original cast member of the stage musical 'Disco is BACK! For Revenge!' His signature dance move is 'The Weed Whacker.'",
+        "image" : "/assets/zombies/disco jetpack zombie.png",
+        "world" : "Far Future",
+        "special" : "Floats over low plants, boosts over most other plants. Summoned by Disco-tron 3000"
+        },
+    "blastronaut zombie" : {
+        "name" : "Blastronaut Zombie",
+        "toughness" : "Protected",
+        "speed" : "Flighty",
+        "description" : "Blastronaut's rocket-pack is strictly ornamental; his hovering ability comes from a deep meditative state and from being full of helium.",
+        "image" : "/assets/zombies/blastronaut.png",
+        "world" : "Far Future",
+        "special" : "Floats over low plants, boosts over most other plants"
+        },
+    "mecha football zombie" : {
+        "name" : "Mecha Football Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "Now past his prime, Mecha-Football Zombie is ready to be put back into the game. Until he gets some brains, concussions aren't a concern.",
+        "image" : "/assets/zombies/mecha football zombie.png",
+        "world" : "Far Future",
+        "special" : "Pushes plants to the left instead of eating them."
+        },
+    "disco-tron 3000" : {
+        "name" : "Disco-tron 3000",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "After some initial problems with the sideburn suspension system, the Disco-tron 3000 went on to become the shufflin' dance-bot of doom it is today.",
+        "image" : "/assets/zombies/disco-tron 3000.png",
+        "world" : "Far Future",
+        "special" : "Stops to summon Disco Jetpack Zombies"
+        },
+    "robo-cone zombie" : {
+        "name" : "Robo-Cone Zombie",
+        "toughness" : "Machined",
+        "speed" : "Stiff",
+        "description" : "Zombie engineers considered the orange cone the height of zombie protective technology. It wasn't until they perfected the design for the Robo-Cone that someone remembered the bucket.",
+        "image" : "/assets/zombies/robo-cone zombie.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "shield zombie" : {
+        "name" : "Shield Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Shield Zombie developed his system using funds from a BiteStarter campaign. The push goal for pushing plants was not met.",
+        "image" : "/assets/zombies/.png",
+        "world" : "Far Future",
+        "special" : "Creates a shield that protects from incoming attacks"
+        },
+    "bug bot imp" : {
+        "name" : "Bug Bot Imp",
+        "toughness" : "Average",
+        "speed" : "Hungry",
+        "description" : "He always wanted to 'see the world', 'be his own boss', and 'meet and consume interesting brains'. He still doesn't understand how he got stuck in this cramped Bug Bot job 24/7.",
+        "image" : "/assets/zombies/bug bot imp.png",
+        "world" : "Far Future",
+        "special" : "n/a"
+        },
+    "gargantuar prime" : {
+        "name" : "Gargantuar Prime",
+        "toughness" : "Great",
+        "speed" : "Stiff",
+        "description" : "The imp pilots of the Gargantuar Prime series are handpicked by Dr. Zomboss himself. They are the imp elite. The small, the mean, and the fearless! But mostly the ones who drive a stick shift.",
+        "image" : "/assets/zombies/gargantuar prime.png",
+        "world" : "Far Future",
+        "special" : "Crushes plants with its arms and burns random tiles with lasers that it fires from its eyes. It also launches a Bug Bot Imp when damaged."
+        },
+    "zombot tomorrow-tron" : {
+        "name" : "Zombot Tomorrow-tron",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "When Dr. Zomboss is nestled into the comfy folds of his futuristic cerebral control pod he almost finds it hard to be evil. Of course once he sees a lawn full of happy plants that puts him right back where it needs to be, hungry and evil.",
+        "image" : "/assets/zombies/zombot tomorrow-tron.png",
+        "world" : "Far Future",
+        "special" : "Spawns Far Future zombies, can charge at plants, and fires missles that can destroy power tiles"
+        },
     "" : {
         "name" : "",
         "toughness" : "",
         "speed" : "",
         "description" : "",
         "image" : "/assets/zombies/.png",
-        "world" : "Wild West",
+        "world" : "Dark Ages",
         "special" : "n/a"
         },
 }
