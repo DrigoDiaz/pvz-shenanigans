@@ -251,7 +251,31 @@ def all_zombies(request):
             "future buckethead zombie",
             "holo head zombie",
             "future flag zombie",
-            "robo rally zombie"
+            "robo rally zombie",
+            "jetpack zombie",
+            "disco jetpack zombie",
+            "blastronaut zombie",
+            "mecha football zombie",
+            "disco-tron 3000",
+            "robo-cone zombie",
+            "shield zombie",
+            "bug bot imp",
+            "gargantuar prime",
+            "zombot tomorrow-tron",
+            "peasant zombie",
+            "conehead peasant",
+            "buckethead peasant",
+            "knight zombie",
+            "turret-head zombie",
+            "peasant flag zombie",
+            "jester zombie",
+            "wizard zombie",
+            "zombie king",
+            "announcer imp",
+            "imp dragon zombie",
+            "imp monk zombie",
+            "dark ages gargantuar",
+            "zombot dark dragon"
         ]
     return JsonResponse({"message": "Successfully retrived all zombies!", "zombies" : zombies}, status=200)
 

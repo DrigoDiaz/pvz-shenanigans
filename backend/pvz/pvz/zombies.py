@@ -926,13 +926,139 @@ zombiedata = {
         "world" : "Far Future",
         "special" : "Spawns Far Future zombies, can charge at plants, and fires missles that can destroy power tiles"
         },
+    "peasant zombie" : {
+        "name" : "Peasant Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Someone shouted, 'Bring out your undead!' And then Peasant Zombie found himself here. He simply doesn't remember anything that happened before that.",
+        "image" : "/assets/zombies/peasant zombie.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+    "conehead peasant" : {
+        "name" : "Conehead Peasant",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Conehead Peasant is just happy to have a cone over his head. Times are tough, man. He knows a lot of zombies don't even have that.",
+        "image" : "/assets/zombies/conehead peasant.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+    "buckethead peasant" : {
+        "name" : "Buckethead Peasant",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "None of the other zombies seem to understand just how versatile Buckethead Peasant's choice of headwear is. Sure, his bucket makes for a great battle helmet. But just last night, he cooked a truly divine stew in it. And next time you see his band, check out what he's using for a kick drum.",
+        "image" : "/assets/zombies/buckethead peasant.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+    "knight zombie" : {
+        "name" : "Knight Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'",
+        "image" : "/assets/zombies/knight zombie.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+    "turret-head zombie" : {
+        "name" : "Turret-Head Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "Dr. Zomboss is well known in the global architect circles. He is the 20 time winner of the Annual Architectural Digest for most impressive medieval design. There seems to be countless variations to his free standing turrets in an open field.",
+        "image" : "/assets/zombies/turret-head zombie.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+    "peasant flag zombie" : {
+        "name" : "Peasant Flag Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "They keep telling Peasant Zombie that there is no greater reward than being granted the banner to carry into battle. But when he sees other Peasant Zombies being granted cones, buckets, and even helms, he thinks maybe they're making that up so they don't hurt his feelings.",
+        "image" : "/assets/zombies/peasant flag zombie.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+    "jester zombie" : {
+        "name" : "Jester Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Oh sure, everyone loves to laugh at Jester Zombie's clownish routines. But what no one knows is that he has a Master of Fine Arts from the Chewliard Performing Arts School. Heck, he's been on stage with some of the finest classical theatre companies this side of the lawn. But sometimes you just gotta go where the paycheck is.",
+        "image" : "/assets/zombies/jester zombie.png",
+        "world" : "Dark Ages",
+        "special" : "Returns protected that shot towards it."
+        },
+    "wizard zombie" : {
+        "name" : "Wizard Zombie",
+        "toughness" : "Dense",
+        "speed" : "Creeper",
+        "description" : "All the zombies agree, Wizard Zombie's powers of transmutation are impressive. But what they don't get is ... why sheep? Everyone knows it would be more helpful if the Wizard used his powers to turn plants into, say, more zombies. But yeah, no one is going to say that to his face.",
+        "image" : "/assets/zombies/wizard zombie.png",
+        "world" : "Dark Ages",
+        "special" : "Transforms plants into passive sheep"
+        },
+    "zombie king" : {
+        "name" : "Zombie King",
+        "toughness" : "Hardened",
+        "speed" : "n/a",
+        "description" : "As Shakespeare once wrote, 'Uneasy lies the head that wears a crown.' And Zombie King couldn't agree more. It is incredibly difficult to get a good night's sleep with a crown on your head. That thing is all kinds of uncomfortable.",
+        "image" : "/assets/zombies/zombie king.png",
+        "world" : "Dark Ages",
+        "special" : "Gives knight helms to nearby peasant zombies."
+        },
+    "announcer imp" : {
+        "name" : "Announcer imp",
+        "toughness" : "n/a",
+        "speed" : "n/a",
+        "description" : "n/a",
+        "image" : "/assets/zombies/announcer imp.png",
+        "world" : "Dark Ages",
+        "special" : "Marks the arrival of a Zombie King."
+        },
+    "imp dragon zombie" : {
+        "name" : "Imp Dragon Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Imp Zombie knows he's too old to wear a dragon costume like a kid on Halloween. But he doesn't care. Let the others judge. His spirit animal is a dragon, and he feels closer to his true self when he's dressed like this.",
+        "image" : "/assets/zombies/imp dragon zombie.png",
+        "world" : "Dark Ages",
+        "special" : "Immune to fire damage"
+        },
+    "imp monk zombie" : {
+        "name" : "Imp Monk Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Frankly, Imp Monk Zombie decided to don the robes because of the sweet haircut that went with them.",
+        "image" : "/assets/zombies/imp monk zombie.png",
+        "world" : "Dark Ages",
+        "special" : "n/a"
+        },
+     "dark ages gargantuar" : {
+        "name" : "Dark Ages Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Hungry",
+        "description" : "When Dark Ages Gargantuar wants to find pantaloons that fit him, he has to shop at the 'Enormous & Towering' store. He hates it though. It's embarrassing. He just wants to shop for clothes where all the other zombies shop.",
+        "image" : "/assets/zombies/dark ages gargantuar.png",
+        "world" : "Dark Ages",
+        "special" : "Crushes plants with a hammer and launches a Imp Monk Zombie when damaged."
+        },
+    "zombot dark dragon" : {
+        "name" : "Zombot Dark Dragon",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "With a rumble of destruction, Dr. Zomboss forged his Dark Dragon in the heart of a volcano. Then he tempered the beast in the chilled waters of Doom Lake. Finally he fed its furnace with coal from the Mines of Morbidity. And the paint job - that was done by Carl.",
+        "image" : "/assets/zombies/zombot dark dragon.png",
+        "world" : "Dark Ages",
+        "special" : "Spawns Dark Ages Zombies, spits fireballs that spawn Imp Dragon Zombies, and breathes fire within 2 lanes, incinerating everything within them."
+        },
     "" : {
         "name" : "",
         "toughness" : "",
         "speed" : "",
         "description" : "",
         "image" : "/assets/zombies/.png",
-        "world" : "Dark Ages",
+        "world" : "Neon Mixtape Tour",
         "special" : "n/a"
         },
 }
