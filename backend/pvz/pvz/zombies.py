@@ -1052,13 +1052,139 @@ zombiedata = {
         "world" : "Dark Ages",
         "special" : "Spawns Dark Ages Zombies, spits fireballs that spawn Imp Dragon Zombies, and breathes fire within 2 lanes, incinerating everything within them."
         },
+    "neon zombie" : {
+        "name" : "Neon Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "He's cutting down on his head-banging so as not to bang his head clean off.",
+        "image" : "/assets/zombies/neon zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "n/a"
+        },
+    "neon conehead" : {
+        "name" : "Neon Conehead",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Neon Conehead Zombie used to be a big believer in de-evolution, but then he forgot what it meant.",
+        "image" : "/assets/zombies/neon conehead.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "n/a"
+        },
+    "neon buckethead" : {
+        "name" : "Neon Buckethead",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "Neon Buckethead Zombie had to go all the way to the dump to find a headband he really liked.",
+        "image" : "/assets/zombies/neon buckethead.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "n/a"
+        },
+    "neon flag zombie" : {
+        "name" : "Neon Flag Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Fluorescent colors and little yellow plastic strips are the marks of a truly hip, groundbreaking new style of zombie wave flag.",
+        "image" : "/assets/zombies/neon flag zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "n/a"
+        },
+    "punk zombie" : {
+        "name" : "Punk Zombie",
+        "toughness" : "Solid",
+        "speed" : "Hungry",
+        "description" : "Punk Zombie's piercings represent his individuality and his belief in personal freedom, or maybe just that he fell face-first into a sewing machine.",
+        "image" : "/assets/zombies/punk zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Pushes plants to the left when his jam is playing"
+        },
+    "mc zom-b" : {
+        "name" : "MC Zom-B",
+        "toughness" : "Solid",
+        "speed" : "Hungry",
+        "description" : "MC Zom-B doesn't want you to know it, but his fancy bling is really just gold-plated zinc he got from his grandma.",
+        "image" : "/assets/zombies/mc zom-b.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Destroys plants in a 3x3 area when his jam is playing."
+        },
+    "breakdancer zombie" : {
+        "name" : "Breakdancer Zombie",
+        "toughness" : "Solid",
+        "speed" : "Hungry",
+        "description" : "Delivers only the freshest moves at bargain basement prices.",
+        "image" : "/assets/zombies/breakdancer zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Kicks zombies forward when their music is playing."
+        },
+    "glitter zombie" : {
+        "name" : "Glitter Zombie",
+        "toughness" : "Dense",
+        "speed" : "Basic",
+        "description" : "Glitter Zombie inspires zombies everywhere to boogie their brains out, whether it's just one moment or maybe forever, or at least until the lights come on and they're kicking everybody out.",
+        "image" : "/assets/zombies/glitter zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Leaves a rainbow trail that protects zombies behind her when her music is playing"
+        },
+    "boombox zombie" : {
+        "name" : "Boombox Zombie",
+        "toughness" : "Dense",
+        "speed" : "Basic",
+        "description" : "Boombox Zombie doesn't want to buy, sell or process anything; he just really wants to consume your brains.",
+        "image" : "/assets/zombies/boombox zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Plays some tranquil tunes that affects most plants. Grounded plants and Phat Beets are unaffected"
+        },
+    "arcade zombie" : {
+        "name" : "Arcade Zombie",
+        "toughness" : "Dense",
+        "speed" : "Hungry",
+        "description" : "When it's a choice between quarters for games and quarters for laundry, Arcade Zombie is prepared to make the ultimate stinky sacrifice.",
+        "image" : "/assets/zombies/arcade zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Pushes an arcade machine that crushes plants and spawns 8-Bit Zombies"
+        },
+    "8-bit zombie" : {
+        "name" : "8-Bit Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Being made out of light and positional co-ordinates has no effect on this erzatz zombie's ravenous hunger for tangy brains.",
+        "image" : "/assets/zombies/8-bit zombie.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Comes in regular, cone, and bucket variants"
+        },
+    "impunk" : {
+        "name" : "Impunk",
+        "toughness" : "Average",
+        "speed" : "Hungry",
+        "description" : "Impunk's lyrics have been described as 'banal', 'incoherent,' and 'totally expressive of the Zompunk movement at its finest.'",
+        "image" : "/assets/zombies/impunk.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "n/a"
+        },
+    "hair metal gargantuar" : {
+        "name" : "Hair Metal Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Hungry",
+        "description" : "Hair Metal Gargantuar only knows one chord, but you'd better believe he'll play it all night and then some.",
+        "image" : "/assets/zombies/hair metal gargantuar.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Crushes plants with a guitar, launches a Impunk when damaged, and sends a shockwave when their music is playing"
+        },
+    "zombot multi-stage masher" : {
+        "name" : "Zombot Multi-Stage Masher",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "In another world, in another time, Dr. Zomboss would receive the bounty of enthusiastic applause that is his due. Not here and now, though. Nope.",
+        "image" : "/assets/zombies/zombot multi-stage masher.png",
+        "world" : "Neon Mixtape Tour",
+        "special" : "Spawns Neon Mixtape Tour zombies, fires speakers to crush plants and deal passive damage to nearby plants, and sends shockwaves to wipe out a whole lane."
+        },
     "" : {
         "name" : "",
         "toughness" : "",
         "speed" : "",
         "description" : "",
         "image" : "/assets/zombies/.png",
-        "world" : "Neon Mixtape Tour",
+        "world" : "Jurassic Marsh",
         "special" : "n/a"
         },
 }

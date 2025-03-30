@@ -275,7 +275,21 @@ def all_zombies(request):
             "imp dragon zombie",
             "imp monk zombie",
             "dark ages gargantuar",
-            "zombot dark dragon"
+            "zombot dark dragon",
+            "neon zombie",
+            "neon conehead",
+            "neon buckethead",
+            "neon flag zombie",
+            "punk zombie",
+            "mc zom-b",
+            "breakdancer zombie",
+            "glitter zombie",
+            "boombox zombie",
+            "arcade zombie",
+            "8-bit zombie",
+            "impunk",
+            "hair metal gargantuar",
+            "zombot multi-stage masher"
         ]
     return JsonResponse({"message": "Successfully retrived all zombies!", "zombies" : zombies}, status=200)
 
