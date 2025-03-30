@@ -8,7 +8,7 @@ plantdata = {
         "range": "Lobbed/Multi-Hit",
         "family": "Arma-mint",
         "description": "A.K.E.E.s lob projectiles that bounce from zombie to zombie.",
-        "image": "/assets/plants/A.K.E.E..png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/A.K.E.E..png"
         },
     "ail-mint": {
         "name": "Ail-mint",
@@ -18,7 +18,7 @@ plantdata = {
         "weakness": "(immune to poison effect)",
         "family": "Ail-mint",
         "description": "Ail-mints poison all zombies when planted and provide a temporary boost to all Ail-mint Family plants on the lawn.",
-        "image": "/assets/plants/Ail-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Ail-mint.png"
         },
     "aloe": {
         "name": "Aloe",
@@ -27,7 +27,7 @@ plantdata = {
         "toughness": "450",
         "family": "Reinforce-mint",
         "description": "Aloes heal injured plants to their immediate right when that plant is below a certain amount of health.",
-        "image": "/assets/plants/Aloe.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Aloe.png"
         },
     "appease-mint": {
         "name": "Appease-mint",
@@ -36,7 +36,7 @@ plantdata = {
         "duration": "6 seconds",
         "family": "Appease-mint",
         "description": "Appease-mints fire a volley of huge peas that break into smaller peas and provide a temporary boost to all Appease-mint Family plants on the lawn.",
-        "image": "https://static.wikia.nocookie.net/plantsvszombies/images/6/68/Appease-mint2.png/revision/latest?cb=20190826075335",
+        "image": "https://static.wikia.nocookie.net/plantsvszombies/images/6/68/Appease-mint2.png",
         },
     "apple mortar": {
         "name": "Apple Mortar",
@@ -48,7 +48,7 @@ plantdata = {
         "range": "Lobbed",
         "family": "Arma-mint",
         "description": "Apple Mortars lob apple cores that damage and briefly stun zombies over three lanes.",
-        "image": "/assets/plants/Apple Mortar.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Apple Mortar.png"
         },
     "arma-mint": {
         "name": "Arma-mint",
@@ -58,7 +58,7 @@ plantdata = {
         "duration": "6 seconds",
         "family": "Arma-mint",
         "description": "Arma-mints launch a volley of heavy stunning artillery projectiles and provide a temporary boost to all Arma-mint Family plants on the lawn.",
-        "image": "/assets/plants/Arma-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Arma-mint.png"
         },
     "banana launcher": {
         "name": "Banana Launcher",
@@ -71,7 +71,7 @@ plantdata = {
         "special": "On impact, explodes in small area",
         "family": "Arma-mint",
         "description": "Banana Launchers can fire explosive bananas at any tile on the lawn.",
-        "image": "/assets/plants/Banana Launcher.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Banana Launcher.png"
         },
     "blastberry vine": {
         "name": "Blastberry Vine",
@@ -80,7 +80,7 @@ plantdata = {
         "damage": "15 DPS per bomblet",
         "family": "Arma-mint",
         "description": "Blastberry Vines can be planted on top of other plants to provide increased defense and an additional attack in the form of lobbed projectiles that break into explosive bomblets.",
-        "image": "/assets/plants/Blastberry Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Blastberry Vine.png"
         },
     "bloomerang": {
         "name": "Bloomerang",
@@ -92,7 +92,7 @@ plantdata = {
         "powerup": "Duration",
         "family": "Spear-mint",
         "description": "Bloomerangs can hit multiple targets in their lane, twice each coming and going!",
-        "image": "/assets/plants/Bloomerang.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Bloomerang.png"
         },
     "blooming heart": {
         "name": "Blooming Heart",
@@ -102,7 +102,7 @@ plantdata = {
         "range": "Lobbed",
         "family": "Ail-mint",
         "description": "Blooming Hearts lob projectiles that infatuate zombies, causing increasing damage the more that hit.",
-        "image": "/assets/plants/Blooming Heart.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Blooming Heart.png"
         },
     "blover": {
         "name": "Blover",
@@ -113,7 +113,7 @@ plantdata = {
         "range": "Full Board",
         "family": "Contain-mint",
         "description": "Blovers blow away all zombies in air",
-        "image": "/assets/plants/Blover.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Blover.png"
         },
     "bombard-mint": {
         "name": "Bombard-mint",
@@ -123,7 +123,7 @@ plantdata = {
         "duration": "6 seconds",
         "family": "Bombard-mint",
         "description": "Bombard-mints set off a number of explosions on the board and provide a temporary boost to all Bombard-mint Family plants on the lawn.",
-        "image": "/assets/plants/Bombard-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Bombard-mint.png"
         },
     "bonk choy": {
         "name": "Bonk Choy",
@@ -135,7 +135,7 @@ plantdata = {
         "powerup": "Duration",
         "family" : "Enforce-mint",
         "description": "Bonk Choys rapidly punch nearby enemies that are ahead or behind them.",
-        "image": "/assets/plants/Bonk Choy.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Bonk Choy.png"
         },
     "boom balloon flower": {
         "name": "Boom Balloon Flower",
@@ -146,7 +146,7 @@ plantdata = {
         "usage": "Tap or drag from Boom Balloon Flower to move a balloon to a tile",
         "family": "Bombard-mint",
         "description": "Boom Balloon Flowers spawn exploding balloons that can be placed anywhere on the lawn as traps for zombies.",
-        "image": "/assets/plants/Boom Balloon Flower.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Boom Balloon Flower.png"
         },
     "bowling bulb": {
         "name": "Bowling Bulb",
@@ -156,7 +156,7 @@ plantdata = {
         "range": "Multi-Hit",
         "family": "Appease-mint",
         "description": "Bowling Bulbs rolls shots that can bounce into multiple zombies.",
-        "image": "/assets/plants/Bowling Bulb.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Bowling Bulb.png"
         },
     "cabbage-pult": {
         "name": "Cabbage-pult",
@@ -166,7 +166,7 @@ plantdata = {
         "range": "Lobbed",
         "family": "Arma-mint",
         "description": "Cabbage-pults hurl cabbages at the enemy.",
-        "image": "/assets/plants/Cabbage-pult.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Cabbage-pult.png"
         },
     "caulipower": {
         "name": "Caulipower",
@@ -177,7 +177,7 @@ plantdata = {
         "special": "Hovers above ground or water",
         "family": "Enchant-mint",
         "description": "Caulipowers use their mental powers to hypnotize random zombies and turn them against their former friends.",
-        "image": "/assets/plants/Caulipower.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Caulipower.png"
         },
     "celery stalker": {
         "name": "Celery Stalker",
@@ -189,7 +189,7 @@ plantdata = {
         "weakness": "(instantly kills it)",
         "family": "Enforce-mint",
         "description": "Celery Stalkers wait until zombies pass, then pop up and bash them from behind.",
-        "image": "/assets/plants/Celery Stalker.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Celery Stalker.png"
         },
     "chard guard": {
         "name": "Chard Guard",
@@ -199,7 +199,7 @@ plantdata = {
         "special": "Hurls zombies back (*3)",
         "family": "Reinforce-mint",
         "description": "Chard Guards are defensive blockers that can hurl zombies backwards.",
-        "image": "/assets/plants/Chard Guard.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Chard Guard.png"
         },
     "cherry bomb": {
         "name": "Cherry Bomb",
@@ -210,7 +210,7 @@ plantdata = {
         "usage": "Single use, instant",
         "family": "Bombard-mint",
         "description": "Cherry Bombs can blow up all zombies in an area. They have a short fuse so plant them near zombies.",
-        "image": "/assets/plants/Cherry Bomb.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Cherry Bomb.png"
         },
     "chili bean": {
         "name": "Chili Bean",
@@ -220,7 +220,7 @@ plantdata = {
         "special": "Eating zombie is destroyed and releases stunning gas",
         "family": "Ail-mint",
         "description": "Chili Beans deliver a crippling bout of gastrointestinal distress.",
-        "image": "/assets/plants/Chili Bean.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Chili Bean.png"
         },
     "citron": {
         "name": "Citron",
@@ -230,7 +230,7 @@ plantdata = {
         "area": "single",
         "family": "Fila-mint",
         "description": "Citrons shoot powerful balls of plasma",
-        "image": "/assets/plants/Citron.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Citron.png"
         },
     "coconut cannon": {
         "name": "Coconut Cannon",
@@ -243,7 +243,7 @@ plantdata = {
         "special": "On impact, explodes in medium area",
         "family": "Arma-mint",
         "description": "Coconut Cannons fire down a single lane, causing a medium explosion on impact.",
-        "image": "/assets/plants/Coconut Cannon.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Coconut Cannon.png"
         },
     "cold snapdragon": {
         "name": "Cold Snapdragon",
@@ -254,7 +254,7 @@ plantdata = {
         "special": "Slows and damages zombies in the 6 tiles in front of it",
         "family": "Winter-mint",
         "description": "Cold Snapdragons breathe icy mist into 6 adjacent tiles that both slows and damage zombies.",
-        "image": "/assets/plants/Cold Snapdragon.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Cold Snapdragon.png"
         },
     "conceal-mint": {
         "name": "Conceal-mint",
@@ -263,7 +263,16 @@ plantdata = {
         "duration": "6 seconds",
         "family": "Conceal-mint",
         "description": "Conceal-mints power up all shadow plants on the lawn, drag some number of zombies to their doom, and provide an additional temporary boost to Conceal-mint Family plants.",
-        "image": "/assets/plants/Conceal-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Conceal-mint.png"
+        },
+    "contain-mint": {
+        "name": "Contain-mint",
+        "sun cost": "0",
+        "recharge": "85 seconds",
+        "duration": "10 seconds",
+        "family": "Contain-mint",
+        "description": "Contain-mints stun all zombies on the board and provide a temporary boost to all Contain-mint Family plants on the lawn.",
+        "image": "https://static.wikia.nocookie.net/plantsvszombies/images/1/11/Contain-mint2.png"
         },
     "dartichoke": {
         "name": "Dartichoke",
@@ -275,7 +284,7 @@ plantdata = {
         "special": "Each shot has a chance to do critical damage",
         "family": "Spear-mint",
         "description": "Dartichokes fire high-damage darts down the lane, prioritizing especially dangerous zombies such as Wizards, Octo Zombies and Healers.",
-        "image": "/assets/plants/Dartichoke.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Dartichoke.png"
         },
     "dazey chain": {
         "name": "Dazey Chain",
@@ -284,7 +293,7 @@ plantdata = {
         "damage": "20 damage per shot per open flower",
         "family": "Contain-mint",
         "description": "Dazey Chains grow through stages, becoming more powerful and releasing a stunning puff of gas at each stage.",
-        "image": "/assets/plants/Dazey Chain.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Dazey Chain.png"
         },
     "draftodil": {
         "name": "Draftodil",
@@ -296,7 +305,7 @@ plantdata = {
         "special": "Air cannon knocks critters, imps and shrunken zombies off the lawn",
         "family": "Contain-mint",
         "description": "Draftodils windmill constantly, slowing flying zombies, and also shoot air cannon blasts that knock flying zombies off the lawn.",
-        "image": "/assets/plants/Draftodil.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Draftodil.png"
         },
     "dusk lobber": {
         "name": "Dusk Lobber",
@@ -307,7 +316,7 @@ plantdata = {
         "range": "Lobbed",
         "family": "Conceal-mint",
         "description": "Dusk Lobbers are shadow plants that lob explosive buds down the lane. When powered Dusk Lobbers can lob buds down three lane.",
-        "image": "/assets/plants/Dusk Lobber.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Dusk Lobber.png"
         },
     "e.m.peach": {
         "name": "E.M.Peach",
@@ -318,7 +327,7 @@ plantdata = {
         "range": "200(5*5)",
         "family": "Fila-mint",
         "description": "E.M.Peaches explode and disable all machines in an area.",
-        "image": "/assets/plants/E.M.Peach.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/E.M.Peach.png"
         },
     "electrici-tea": {
         "name": "Electrici-tea",
@@ -330,7 +339,7 @@ plantdata = {
         "weakness": "Zombies Zapped",
         "family": "Fila-mint",
         "description": "Electrici-teas wait and emit zaps of electrical energy until they are eaten, at which point the eating zombies explode in a flurry of electrical discharge",
-        "image": "/assets/plants/Electrici-tea.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Electrici-tea.png"
         },
     "enchant-mint": {
         "name": "Enchant-mint",
@@ -339,7 +348,7 @@ plantdata = {
         "duration": "11 seconds",
         "family": "Enchant-mint",
         "description": "Enchant-mints randomly hypnotize a number of zombies and provide a temporary boost to all Enchant-mint Family plants on the lawn.",
-        "image": "/assets/plants/Enchant-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Enchant-mint.png"
         },
     "endurian": {
         "name": "Endurian",
@@ -349,7 +358,7 @@ plantdata = {
         "toughness": "3000",
         "family": "Reinforce-mint",
         "description": "Endurians are defensive plants that deal damage to zombies attacking them.",
-        "image": "/assets/plants/Endurian.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Endurian.png"
         },
     "enforce-mint": {
         "name": "Enforce-mint",
@@ -358,7 +367,7 @@ plantdata = {
         "duration": "8 seconds",
         "family": "Enforce-mint",
         "description": "Enforce-mints shrink a number of zombies when planted and provide a temporary boost to all Enforce-mint Family plants on the lawn.",
-        "image": "/assets/plants/Enforce-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Enforce-mint.png"
         },
     "enlighten-mint": {
         "name": "Enlighten-mint",
@@ -367,7 +376,7 @@ plantdata = {
         "duration": "5 seconds",
         "family": "Enlighten-mint",
         "description": "Enlighten-mints give a burst of sun when planted, and provide an additional temporary boost to Enlighten-mint Family plants.",
-        "image": "/assets/plants/Enlighten-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Enlighten-mint.png"
         },
     "escape root": {
         "name": "Escape Root",
@@ -376,7 +385,7 @@ plantdata = {
         "usage": "Instant",
         "family": "Bombard-mint",
         "description": "Escape Roots explode on contact, and can be swapped with other plants that are in danger.",
-        "image": "/assets/plants/Escape Root.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Escape Root.png"
         },
     "explode-o-nut": {
         "name": "Explode-O-Nut",
@@ -386,7 +395,7 @@ plantdata = {
         "weakness": "(Immune to explosion)",
         "family": "Bombard-mint",
         "description": "Explode-O-Nuts provide protection, and when their shells are eaten, they explode to blow up zombies.",
-        "image": "/assets/plants/Explode-O-Nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Explode-O-Nut.png"
         },
     "explode-o-vine": {
         "name": "Explode-o-Vine",
@@ -396,7 +405,7 @@ plantdata = {
         "usage": "can be planted on top of non-vine plants",
         "family": "Bombard-mint",
         "description": "Explode-O-Vines detonate an explosion with knockback when planted, and then a larger explosion when eaten.",
-        "image": "/assets/plants/Explode-o-Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Explode-o-Vine.png"
         },
     "fila-mint": {
         "name": "Fila-mint",
@@ -406,7 +415,7 @@ plantdata = {
         "duration": "6 seconds",
         "family": "Fila-mint",
         "description": "Fila-mints do electric damage and provide a temporary boost to all Fila-mint Family plants on the lawn.",
-        "image": "/assets/plants/Fila-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Fila-mint.png"
         },
     "fume-shroom": {
         "name": "Fume-shroom",
@@ -416,7 +425,7 @@ plantdata = {
         "area": "1x4",
         "family": "Ail-mint",
         "description": "Fume-shrooms shoot fumes that damage all zombies in an area.",
-        "image": "/assets/plants/Fume-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Fume-shroom.png"
         },
     "garlic": {
         "name": "Garlic",
@@ -427,7 +436,7 @@ plantdata = {
         "range": "Touch",
         "family": "Ail-mint",
         "description": "Garlic diverts zombies into other lanes.",
-        "image": "/assets/plants/Garlic.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Garlic.png"
         },
     "ghost pepper": {
         "name": "Ghost Pepper",
@@ -437,7 +446,7 @@ plantdata = {
         "range": "Front & Back",
         "family": "Pepper-mint",
         "description": "Ghost Peppers haunt zombies that pass by and explode after a limited time.",
-        "image": "/assets/plants/Ghost Pepper.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Ghost Pepper.png"
         },
     "gloom vine": {
         "name": "Gloom Vine",
@@ -449,7 +458,7 @@ plantdata = {
         "special": "Powers shadow plants within",
         "family": "Conceal-mint",
         "description": "Gloom Vines power individual shadow plants and shoot zombie-damaging gloom in eight directions.",
-        "image": "/assets/plants/Gloom Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Gloom Vine.png"
         },
     "gold bloom": {
         "name": "Gold Bloom",
@@ -458,7 +467,7 @@ plantdata = {
         "usage": "Instant",
         "family": "Enlighten-mint",
         "description": "Gold Blooms produce a burst of sun all at once.",
-        "image": "/assets/plants/Gold Bloom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Gold Bloom.png"
         },
     "gold leaf": {
         "name": "Gold Leaf",
@@ -468,7 +477,7 @@ plantdata = {
         "usage": "Single use,instant",
         "family" : "Enlighten-mint",
         "description": "Gold Leaves create a Gold Tile on planting.",
-        "image": "/assets/plants/Gold Leaf.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Gold Leaf.png"
         },
     "grapeshot": {
         "name": "Grapeshot",
@@ -481,7 +490,7 @@ plantdata = {
         "weakness": "(deflects grapes)",
         "family": "Bombard-mint",
         "description": "Grapeshots explode and scatter bouncing projectiles in eight directions.",
-        "image": "/assets/plants/Grapeshot.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Grapeshot.png"
         },
     "grave buster": {
         "name": "Grave Buster",
@@ -492,7 +501,7 @@ plantdata = {
         "special": "Removes graves",
         "family": "Contain-mint",
         "description": "Grave Busters consume graves they're planted on.",
-        "image": "/assets/plants/Grave Buster.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Grave Buster.png"
         },
     "grimrose": {
         "name": "Grimrose",
@@ -502,7 +511,7 @@ plantdata = {
         "usage": "Single",
         "family": "Conceal-mint",
         "description": "Grimroses are shadow plants that behave like landbound Tangle Kelps, dragging up to 3 zombies into the dirt.",
-        "image": "/assets/plants/Grimrose.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Grimrose.png"
         },
     "gumnut": {
         "name": "Gumnut",
@@ -513,7 +522,7 @@ plantdata = {
         "weakness": "(can easily remove gum from gummed zombies when teleporting them)",
         "family": "Reinforce-mint",
         "description": "Gumnuts pop sticky gum onto zombies, pinning them in place and causing them to block other zombies behind them.",
-        "image": "/assets/plants/Gumnut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Gumnut.png"
         },
     "headbutter lettuce": {
         "name": "Headbutter Lettuce",
@@ -524,7 +533,7 @@ plantdata = {
         "usage": "Resists damage with high health",
         "family": "Enforce-mint",
         "description": "Headbutter Lettuces bash zombies in front and behind while occasionally buttering zombies.",
-        "image": "/assets/plants/Headbutter Lettuce.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Headbutter Lettuce.png"
         },
     "heath seeker": {
         "name": "Heath Seeker",
@@ -535,7 +544,7 @@ plantdata = {
         "special": "can target from anywhere on the lawn",
         "family": "Spear-mint",
         "description": "Heath Seekers are Spear-mint family instant-use plants that burst into a storm of homing, piercing darts.",
-        "image": "/assets/plants/Heath Seeker.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Heath Seeker.png"
         },
     "hocus crocus": {
         "name": "Hocus Crocus",
@@ -545,7 +554,7 @@ plantdata = {
         "special": "Each teleportation also does damage",
         "family": "Enchant-mint",
         "description": "Hocus Crocuses use slick sleight-of-petal chicanery to magic zombies close to your home all the way back to the rightmost part of the lawn.",
-        "image": "/assets/plants/Hocus Crocus.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Hocus Crocus.png"
         },
     "holly barrier": {
         "name": "Holly Barrier",
@@ -557,7 +566,7 @@ plantdata = {
         "usage": "Tap to arm, tap on target tile to fire",
         "family": "Reinforce-mint",
         "description": "Holly Barrier deals damage to zombies attacking him, and can launch 3 prickly barrier leaves to knock back and damage zombies.",
-        "image": "/assets/plants/Holly Barrier.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Holly Barrier.png"
         },
     "homing thistle": {
         "name": "Homing Thistle",
@@ -567,7 +576,7 @@ plantdata = {
         "range": "Full board",
         "family": "Spear-mint",
         "description": "Homing Thistles fire seeking shots at targets that are closest to home.",
-        "image": "/assets/plants/Homing Thistle.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Homing Thistle.png"
         },
     "hot potato": {
         "name": "Hot Potato",
@@ -577,7 +586,7 @@ plantdata = {
         "special": "Melts an ice block",
         "family": "Pepper-mint",
         "description": "Hot Potatoes melt the ice blocks they're planted on.",
-        "image": "/assets/plants/Hot Potato.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Hot Potato.png"
         },
     "iceberg lettuce": {
         "name": "Iceberg Lettuce",
@@ -588,7 +597,7 @@ plantdata = {
         "usage": "Single use, on contact",
         "family": "Winter-mint",
         "description": "Iceberg Lettuces freeze a zombie when stepped on.",
-        "image": "/assets/plants/Iceberg Lettuce.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Iceberg Lettuce.png"
         },
     "imp pear": {
         "name": "Imp Pear",
@@ -598,7 +607,7 @@ plantdata = {
         "toughness": "300",
         "family": "Ail-mint",
         "description": "When zombies eat Imp Pears, they become Imps. When Imps eat Imp Pears, they are destroyed, releasing stunning gas.",
-        "image": "/assets/plants/Imp Pear.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Imp Pear.png"
         },
     "infi-nut": {
         "name": "Infi-nut",
@@ -609,7 +618,7 @@ plantdata = {
         "weakness": "Crushing zombies",
         "family": "Reinforce-mint",
         "description": "Infi-nuts are weaker than Wall-nuts, but they regain health over time.",
-        "image": "/assets/plants/Infi-nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Infi-nut.png"
         },
     "intensive carrot": {
         "name": "Intensive Carrot",
@@ -619,7 +628,7 @@ plantdata = {
         "usage": "Single use, instant",
         "family": "Enchant-mint",
         "description": "Intensive Carrots bring eaten plants back to life.",
-        "image": "/assets/plants/Intensive Carrot.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Intensive Carrot.png"
         },
     "jack o' lantern": {
         "name": "Jack O' Lantern",
@@ -631,7 +640,7 @@ plantdata = {
         "weakness": "(Immune to fire)",
         "family": "Pepper-mint",
         "description": "Jack O' Lanterns spray fire down a lane, doing extensive burning damage over a short distance.",
-        "image": "/assets/plants/Jack Lantern.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Jack Lantern.png"
         },
     "jalapeno": {
         "name": "Jalapeno",
@@ -643,7 +652,7 @@ plantdata = {
         "weakness": "(Immune to fire)",
         "family": "Pepper-mint",
         "description": "Jalapenos destroy an entire lane of zombies.",
-        "image": "/assets/plants/Jalapeno.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Jalapeno.png"
         },
     "kernel-pult": {
         "name": "Kernel-pult",
@@ -653,7 +662,7 @@ plantdata = {
         "special": "Butter immobilizes zombies",
         "family": "Arma-mint",
         "description": "Kernel-pults fling corn kernels and immobilizing butter at zombies.",
-        "image": "/assets/plants/Kernel-pult.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Kernel-pult.png"
         },
     "kiwibeast": {
         "name": "Kiwibeast",
@@ -664,7 +673,7 @@ plantdata = {
         "area": "1x1 (first stage),3x3 (second stage),5x5 (third stage)",
         "family": "Enforce-mint",
         "description": "Kiwibeasts emit damaging thumps, and become bigger and more powerful the more they are hurt by zombies.",
-        "image": "/assets/plants/Kiwibeast.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Kiwibeast.png"
         },
     "laser bean": {
         "name": "Laser Bean",
@@ -675,7 +684,7 @@ plantdata = {
         "range": "Multi-Hit, all zombie in a lane",
         "family": "Spear-mint",
         "description": "Laser Beans fire down a lane, hitting all zombies ahead of it.",
-        "image": "/assets/plants/Laser Bean.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Laser Bean.png"
         },
     "lava guava": {
         "name": "Lava Guava",
@@ -689,7 +698,7 @@ plantdata = {
         "weakness": "(Immune to fire)",
         "family": "Pepper-mint",
         "description": "Lava Guavas erupt, creating a lava pool that burns zombies.",
-        "image": "/assets/plants/Lava Guava.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Lava Guava.png"
         },
     "lightning reed": {
         "name": "Lightning Reed",
@@ -700,7 +709,7 @@ plantdata = {
         "special": "Chain attacks to multiple targets",
         "family": "Fila-mint",
         "description": "Lightning Reeds shoot lightning at nearest zombie up to one lane away. The bolt will then arc and hit other zombies.",
-        "image": "/assets/plants/Lightning Reed.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Lightning Reed.png"
         },
     "lily pad": {
         "name": "Lily Pad",
@@ -710,7 +719,7 @@ plantdata = {
         "usage": "Can also be planted under non-aquatic plants",
         "family" : "Contain-mint",
         "description": "Lily Pads let you plant non-aquatic plants on top of them.",
-        "image": "/assets/plants/Lily Pad.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Lily Pad.png"
         },
     "magnet-shroom": {
         "name": "Magnet-shroom",
@@ -720,7 +729,7 @@ plantdata = {
         "special": "Removes metal objects from zombies",
         "family": "Contain-mint",
         "description": "Magnet-shrooms remove helmets and other metal objects from zombies.",
-        "image": "/assets/plants/Magnet-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Magnet-shroom.png"
         },
     "magnifying grass": {
         "name": "Magnifying Grass",
@@ -731,7 +740,7 @@ plantdata = {
         "range": "Straight",
         "family": "Fila-mint",
         "description": "Magnifying Grass turns sun into a bolt of colorful damage.",
-        "image": "/assets/plants/Magnifying Grass.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Magnifying Grass.png"
         },
     "melon-pult": {
         "name": "Melon-pult",
@@ -741,7 +750,7 @@ plantdata = {
         "range": "Lobbed",
         "family": " Arma-mint",
         "description": "Melon-pults do heavy damage to groups of zombies.",
-        "image": "/assets/plants/Melon-pult.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Melon-pult.png"
         },
     "missile toe": {
         "name": "Missile Toe",
@@ -752,7 +761,7 @@ plantdata = {
         "usage": "Tap to arm, tap on target tile to fire",
         "family": "Winter-mint",
         "description": "Missile Toes launch cold blasts that damage, chill and slow zombies.",
-        "image": "/assets/plants/Missile Toe.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Missile Toe.png"
         },
     "moonflower": {
         "name": "Moonflower",
@@ -763,7 +772,7 @@ plantdata = {
         "special": "Produces 25 more sun for each shadow plant nearby up to four.",
         "family": "Conceal-mint",
         "description": "Moonflowers radiate a glow that powers up adjacent Shadow plants.",
-        "image": "/assets/plants/Moonflower.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Moonflower.png"
         },
     "murkadamia nut": {
         "name": "Murkadamia Nut",
@@ -773,7 +782,7 @@ plantdata = {
         "usage": "Damaged murk regrows over time",
         "family": "Conceal-mint",
         "description": "Murkadamia Nuts are defensive shadow plants who, when powered, grow jelly murk to damage attacking zombies.",
-        "image": "/assets/plants/Murkadamia Nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Murkadamia Nut.png"
         },
     "nightshade": {
         "name": "Nightshade",
@@ -785,7 +794,7 @@ plantdata = {
         "range details": "Close (not powered),Straight (powered)",
         "family": "Conceal-mint",
         "description": "Nightshades are shadow plants that smack zombies with slappy leaves.",
-        "image": "/assets/plants/Nightshade.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Nightshade.png"
         },
     "olive pit": {
         "name": "Olive Pit",
@@ -795,7 +804,7 @@ plantdata = {
         "special": "Spits out zombie-slowing olive oil",
         "family": "Contain-mint",
         "description": "Olive Pits drill into the ground and wait to consume zombies foolish enough to walk over them.",
-        "image": "/assets/plants/Olive Pit.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Olive Pit.png"
         },
     "parsnip": {
         "name": "Parsnip",
@@ -806,7 +815,7 @@ plantdata = {
         "special": "Rushes at the last moment.",
         "family": "Enforce-mint",
         "description": "Parsnip snips at zombies, and then charges down the lane at the last moment.",
-        "image": "/assets/plants/Parsnip.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Parsnip.png"
         },
     "pea pod": {
         "name": "Pea Pod",
@@ -817,7 +826,7 @@ plantdata = {
         "special": "Increases rate of fire with multiple plantings",
         "family": " Appease-mint",
         "description": "Pea Pods can be planted in the same space for up to 5 times the destruction.",
-        "image": "/assets/plants/Pea Pod.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pea Pod.png"
         },
     "pea vine": {
         "name": "Pea Vine",
@@ -827,7 +836,7 @@ plantdata = {
         "special": "Boosts Appease-mint Family plants",
         "family": "Appease-mint",
         "description": "Pea Vines planted on top of Appease-mint Family plants provide a significant damage boost to those plants.",
-        "image": "/assets/plants/Pea Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pea Vine.png"
         },
     "pea-nut": {
         "name": "Pea-nut",
@@ -837,7 +846,7 @@ plantdata = {
         "toughness": "4000 damage per shot",
         "family": "Reinforce-mint",
         "description": "Pea-nuts can shoot peas and block zombies.",
-        "image": "/assets/plants/Pea-nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pea-nut.png"
         },
     "peashooter": {
         "name": "Peashooter",
@@ -849,7 +858,7 @@ plantdata = {
         "powerup": "Duration",
         "family": "Appease-mint",
         "description": "Peashooters are your first line of defense. They shoot peas at attacking zombies.",
-        "image": "/assets/plants/Peashooter.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Peashooter.png"
         },
     "pepper-mint": {
         "name": "Pepper-mint",
@@ -859,7 +868,7 @@ plantdata = {
         "weakness": "(immune to fire)",
         "family": "Pepper-mint",
         "description": "Pepper-mints set off lane-wide bursts of flame when planted and provide a temporary boost to all Pepper-mint plants on the lawn.",
-        "image": "/assets/plants/Pepper-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pepper-mint.png"
         },
     "pepper-pult": {
         "name": "Pepper-pult",
@@ -870,7 +879,7 @@ plantdata = {
         "range": "Lobbed",
         "family": "Pepper-mint",
         "description": "Pepper-pults lob flaming peppers at zombies and keeps nearby plants warm.",
-        "image": "/assets/plants/Pepper-pult.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pepper-pult.png"
         },
     "perfume-shroom": {
         "name": "Perfume-shroom",
@@ -879,7 +888,7 @@ plantdata = {
         "usage": "Hypnotizes all dinosaurs in a lane",
         "family" : "Ail-mint",
         "description": "Perfume-shrooms enchant dinosaurs and charm them into working against the zombies.",
-        "image": "/assets/plants/Perfume-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Perfume-shroom.png"
         },
     "potato mine": {
         "name": "Potato Mine",
@@ -889,7 +898,7 @@ plantdata = {
         "range": "Contact",
         "family": "Bombard-mint",
         "description": "Potato Mines explode on contact, but they take time to arm. Plant them ahead of zombies.",
-        "image": "/assets/plants/Potato Mine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Potato Mine.png"
         },
     "power lily": {
         "name": "Power Lily",
@@ -898,7 +907,7 @@ plantdata = {
         "usage": "Single use, instant",
         "family" : "Enchant-mint",
         "description": "Power Lilies create one Plant Food out of thin air.",
-        "image": "/assets/plants/Power Lily.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Power Lily.png"
         },
     "power vine": {
         "name": "Power Vine",
@@ -908,7 +917,7 @@ plantdata = {
         "special": "Power Vines horizontally or vertically adjacent to other Power Vines form a network",
         "family": "Fila-mint",
         "description": "Power Vines shoot rapid-fire, high-velocity laser bolts, and can increase their firepower by connecting up in a network.",
-        "image": "/assets/plants/Power Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Power Vine.png"
         },
     "primal peashooter": {
         "name": "Primal Peashooter",
@@ -918,7 +927,7 @@ plantdata = {
         "special": "Rock-like peas occasionally knock zombies back (in the Chinese version, his projectiles can stun or knockback zombies)",
         "family": "Appease-mint",
         "description": "Primal Peashooters shoot heavy peas with a brief stun and occasional knockback at zombies.",
-        "image": "/assets/plants/Primal Peashooter.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Primal Peashooter.png"
         },
     "primal potato mine": {
         "name": "Primal Potato Mine",
@@ -930,7 +939,7 @@ plantdata = {
         "usage": "Single use",
         "family": "Bombard-mint",
         "description": "Primal Potato Mines cost more than regular Potato Mines, but they arm more quickly and do damage over a larger area.",
-        "image": "/assets/plants/Primal Potato Mine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Primal Potato Mine.png"
         },
     "primal sunflower": {
         "name": "Primal Sunflower",
@@ -939,7 +948,7 @@ plantdata = {
         "toughness": "300",
         "family": "Enlighten-mint",
         "description": "Primal Sunflowers pop out large suns instead of regular ones.",
-        "image": "/assets/plants/Primal Sunflower.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Primal Sunflower.png"
         },
     "primal wall-nut": {
         "name": "Primal Wall-nut",
@@ -948,7 +957,7 @@ plantdata = {
         "toughness": "4000 damage per shot",
         "family": "Reinforce-mint",
         "description": "Primal Wall-nuts cost a bit more than typical Wall-nuts, but they can be planted much more quickly.",
-        "image": "/assets/plants/Primal Wall-nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Primal Wall-nut.png"
         },
     "puff-shroom": {
         "name": "Puff-shroom",
@@ -959,7 +968,7 @@ plantdata = {
         "special": "Lives for a limited time",
         "family": "Ail-mint",
         "description": "Puff-shrooms are short-range shooters that last for a limited time.",
-        "image": "/assets/plants/Puff-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Puff-shroom.png"
         },
     "puffball": {
         "name": "Puffball",
@@ -969,7 +978,7 @@ plantdata = {
         "usage": "Repeated Puffball explosions add to the poison",
         "family": "Ail-mint",
         "description": "Puffballs explode when planted, stunning and poisoning zombies in three columns.",
-        "image": "/assets/plants/Puffball.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Puffball.png"
         },
     "pumpkin": {
         "name": "Pumpkin",
@@ -979,7 +988,7 @@ plantdata = {
         "weakness": "(Can crush it)",
         "family": "Reinforce-mint",
         "description": "Pumpkins can be planted on top of other plants to provide a tough additional layer of armor.",
-        "image": "/assets/plants/Pumpkin.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pumpkin.png"
         },
     "pyre vine": {
         "name": "Pyre Vine",
@@ -989,7 +998,7 @@ plantdata = {
         "weakness": "(Immune to fire)",
         "family": "Pepper-mint",
         "description": "Pyre Vines can be planted on top of other plants to provide protection from cold plus an additional close range flame attack.",
-        "image": "/assets/plants/Pyre Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Pyre Vine.png"
         },
     "red stinger": {
         "name": "Red Stinger",
@@ -1000,7 +1009,7 @@ plantdata = {
         "range": "Straight",
         "family": "Appease-mint",
         "description": "Red Stingers fire shots at full force when close to home, and become more defensive further from it.",
-        "image": "/assets/plants/Red Stinger.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Red Stinger.png"
         },
     "reinforce-mint": {
         "name": "Reinforce-mint",
@@ -1010,7 +1019,7 @@ plantdata = {
         "special": "Knockback",
         "family": "Reinforce-mint",
         "description": "Reinforce-mints push all zombies back and provide a temporary boost to all Reinforce-mint Family plants on the lawn.",
-        "image": "/assets/plants/Reinforce-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Reinforce-mint.png"
         },
     "repeater": {
         "name": "Repeater",
@@ -1020,7 +1029,7 @@ plantdata = {
         "range": "Straight",
         "family": "Appease-mint",
         "description": "Repeater fires two peas at a time.",
-        "image": "/assets/plants/Repeater.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Repeater.png"
         },
     "rotobaga": {
         "name": "Rotobaga",
@@ -1031,7 +1040,7 @@ plantdata = {
         "range": "4 way",
         "family": "Appease-mint",
         "description": "Rotobagas shoot projectiles along the four diagonals, in each direction that has a target",
-        "image": "/assets/plants/Rotobaga.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Rotobaga.png"
         },
     "sap-fling": {
         "name": "Sap-fling",
@@ -1043,7 +1052,7 @@ plantdata = {
         "special": "Slows zombies who walk in puddle",
         "family": "Contain-mint",
         "description": "Sap-flings create zombie-slowing puddles of sap.",
-        "image": "/assets/plants/Sap-fling.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Sap-fling.png"
         },
     "shadow peashooter": {
         "name": "Shadow Peashooter",
@@ -1052,7 +1061,7 @@ plantdata = {
         "damage": "30 damage per shot (peas),70 damage per shot (beam),Heavy (Chinese version)",
         "family": "Conceal-mint",
         "description": "Shadow Peashooters are shadow plants that fire piercing shadowy peas at zombies.",
-        "image": "/assets/plants/Shadow Peashooter.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Shadow Peashooter.png"
         },
     "shadow-shroom": {
         "name": "Shadow-shroom",
@@ -1062,7 +1071,7 @@ plantdata = {
         "range": "Touch",
         "family": "Conceal-mint",
         "description": "Shadow-shrooms poison zombies who touch them, inflicting damage over time.",
-        "image": "/assets/plants/Shadow-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Shadow-shroom.png"
         },
     "shine vine": {
         "name": "Shine Vine",
@@ -1073,7 +1082,7 @@ plantdata = {
         "special": "Doesn't amplify Moonflower's sun production",
         "family": "Enlighten-mint",
         "description": "Shine Vines are vine plants that amplify the sun production of sun producer plants, except Moonflower, create some sun on their own, and use a sun-stun burst as a last second defense when attacked.",
-        "image": "/assets/plants/Shine Vine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Shine Vine.png"
         },
     "shrinking violet": {
         "name": "Shrinking Violet",
@@ -1084,7 +1093,7 @@ plantdata = {
         "special": "Shrinks Imps to oblivion",
         "family": "Enchant-mint",
         "description": "Shrinking Violets shrinks zombies in an area, forcing them to take double damage and reducing the bite damage they inflict.",
-        "image": "/assets/plants/Shrinking Violet.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Shrinking Violet.png"
         },
     "snapdragon": {
         "name": "Snapdragon",
@@ -1095,7 +1104,7 @@ plantdata = {
         "special": "Damages all zombies in the 6 tiles in front of it",
         "family": " Pepper-mint",
         "description": "Snapdragons breathe fire that causes damage in 6 adjacent tiles.",
-        "image": "/assets/plants/Snapdragon.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Snapdragon.png"
         },
     "solar sage": {
         "name": "Solar Sage",
@@ -1104,7 +1113,7 @@ plantdata = {
         "weakness": "Vulnerable to critters and mechs",
         "family": "Enlighten-mint",
         "description": "Solar Sages illuminate zombies, causing them to make better choices and depart, leaving behind a trail of sun.",
-        "image": "/assets/plants/Solar Sage.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Solar Sage.png"
         },
     "solar tomato": {
         "name": "Solar Tomato",
@@ -1115,7 +1124,7 @@ plantdata = {
         "special": "Stun",
         "family": "Enlighten-mint",
         "description": "Solar Tomatoes stun zombies in a 3x3 area, causing each zombie to drop 50 sun.",
-        "image": "/assets/plants/Solar Tomato.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Solar Tomato.png"
         },
     "spear-mint": {
         "name": "Spear-mint",
@@ -1123,7 +1132,7 @@ plantdata = {
         "recharge": "85 seconds",
         "family": "Spear-mint",
         "description": "Spear-mints generate a number of higher-level Spikerocks on the board and provide a temporary boost to all Spear-mint Family plants on the lawn.",
-        "image": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Spear-mint2.png/revision/latest?cb=20190826045314"
+        "image": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Spear-mint2.png"
         },
     "spikerock": {
         "name": "Spikerock",
@@ -1135,7 +1144,7 @@ plantdata = {
         "weakness": "Can take three hits from rolling zombies",
         "family": "Spear-mint",
         "description": "Spikerocks destroy multiple rolling zombies and damage zombies that walk over it.",
-        "image": "/assets/plants/Spikerock.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Spikerock.png"
         },
     "spikeweed": {
         "name": "Spikeweed",
@@ -1147,7 +1156,7 @@ plantdata = {
         "weakness": "Crushed by rolling zombies",
         "family": "Spear-mint",
         "description": "Spikeweeds destroy one rolling zombie and hurt any zombies that step on them.",
-        "image": "/assets/plants/Spikeweed.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Spikeweed.png"
         },
     "split pea": {
         "name": "Split Pea",
@@ -1157,7 +1166,7 @@ plantdata = {
         "range": "Front and Back",
         "family": "Appease-mint",
         "description": "Split Peas shoot peas forward and backwards.",
-        "image": "/assets/plants/Split Pea.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Split Pea.png"
         },
     "spore-shroom": {
         "name": "Spore-shroom",
@@ -1167,7 +1176,7 @@ plantdata = {
         "range": "Lobbed",
         "family": "Ail-mint",
         "description": "Spore-shrooms fire spores that create new Spore-shrooms out of defeated zombies.",
-        "image": "/assets/plants/Spore-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Spore-shroom.png"
         },
     "spring bean": {
         "name": "Spring Bean",
@@ -1178,7 +1187,7 @@ plantdata = {
         "special": "Pushes zombies back, or into the water",
         "family": "Contain-mint",
         "description": "Spring Beans bounce back zombies that get too close. Will bounce them into water if nearby.",
-        "image": "/assets/plants/Spring Bean.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Spring Bean.png"
         },
     "squash": {
         "name": "Squash",
@@ -1191,7 +1200,7 @@ plantdata = {
         "usage": "Single-use",
         "family": "Enforce-mint",
         "description": "Squashes will smash the first zombie that gets close.",
-        "image": "/assets/plants/Squash.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Squash.png"
         },
     "stallia": {
         "name": "Stallia",
@@ -1203,7 +1212,7 @@ plantdata = {
         "range": "Touch",
         "family": "Contain-mint",
         "description": "Stallias slow down zombies with a puff of perfume.",
-        "image": "/assets/plants/Stallia.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Stallia.png"
         },
     "starfruit": {
         "name": "Starfruit",
@@ -1214,7 +1223,7 @@ plantdata = {
         "range": "5 Way",
         "family": "Appease-mint",
         "description": "Starfruits shoot stars in 5 directions.",
-        "image": "/assets/plants/Starfruit.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Starfruit.png"
         },
     "stickybomb rice": {
         "name": "Stickybomb Rice",
@@ -1224,7 +1233,7 @@ plantdata = {
         "special": "Exploding sticky bombs trigger other sticky bombs",
         "family": "Arma-mint",
         "description": "Stickybomb Rice lobs sticky rice bombs with timers at zombies.",
-        "image": "/assets/plants/Stickybomb Rice.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Stickybomb Rice.png"
         },
     "stunion": {
         "name": "Stunion",
@@ -1235,7 +1244,7 @@ plantdata = {
         "range": "Close",
         "family": "contain-mint",
         "description": "Stunions breathe a stunning cloud of gas on nearby zombies in the lane.",
-        "image": "/assets/plants/Stunion.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Stunion.png"
         },
     "sun bean": {
         "name": "Sun Bean",
@@ -1245,7 +1254,7 @@ plantdata = {
         "usage": "Single use, on contact",
         "family": "Enlighten-mint",
         "description": "Sun Beans infect zombies with sun. As a zombie takes damage they generate sun.",
-        "image": "/assets/plants/Sun Bean.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Sun Bean.png"
         },
     "sun-shroom": {
         "name": "Sun-shroom",
@@ -1254,7 +1263,7 @@ plantdata = {
         "toughness": "Typical",
         "family": "Enlighten-mint",
         "description": "Sun-shrooms give small sun at first, then normal suns, and finally large suns.",
-        "image": "/assets/plants/Sun-shroom.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Sun-shroom.png"
         },
     "sunflower": {
         "name": "Sunflower",
@@ -1264,7 +1273,7 @@ plantdata = {
         "toughness": "300",
         "family": "Enlighten-mint",
         "description": "Sunflowers are essential for you to produce extra sun. Try planting as many as you can!",
-        "image": "/assets/plants/Sunflower.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Sunflower.png"
         },
     "sweet potato": {
         "name": "Sweet Potato",
@@ -1273,7 +1282,7 @@ plantdata = {
         "toughness": "4000 damage per shot",
         "family": "Reinforce-mint",
         "description": "Sweet Potatoes attract zombies from other lanes when they are close by.",
-        "image": "/assets/plants/Sweet Potato.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Sweet Potato.png"
         },
     "tall-nut": {
         "name": "Tall-nut",
@@ -1283,7 +1292,7 @@ plantdata = {
         "special": "Blocks launched imps",
         "family": " Reinforce-mint",
         "description": "Tall-nuts are heavy-duty wall plants that block low flying zombies.",
-        "image": "/assets/plants/Tall-nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Tall-nut.png"
         },
     "tangle kelp": {
         "name": "Tangle Kelp",
@@ -1293,7 +1302,7 @@ plantdata = {
         "range": "Touch",
         "family": "Enforce-mint",
         "description": "Tangle Kelp are aquatic plants that pull the first zombie that nears them underwater.",
-        "image": "/assets/plants/Tangle Kelp.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Tangle Kelp.png"
         },
     "teleportato mine": {
         "name": "Teleportato Mine",
@@ -1305,7 +1314,7 @@ plantdata = {
         "usage": "Instant",
         "family": "Bombard-mint",
         "description": "Teleportato Mine teleports zombies to her location, then explodes.",
-        "image": "/assets/plants/Teleportato Mine.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Teleportato Mine.png"
         },
     "threepeater": {
         "name": "Threepeater",
@@ -1315,7 +1324,7 @@ plantdata = {
         "range": "Multi-Lane",
         "family": "Appease-mint",
         "description": "Threepeaters shoot peas in three lanes.",
-        "image": "/assets/plants/Threepeater.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Threepeater.png"
         },
     "thyme warp": {
         "name": "Thyme Warp",
@@ -1326,7 +1335,7 @@ plantdata = {
         "special": "Rewound zombies have restored health",
         "family": "Contain-mint",
         "description": "Thyme Warps rewind time, sending zombies back where they started, but healing them in the process.",
-        "image": "/assets/plants/Thyme Warp.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Thyme Warp.png"
         },
     "tiger grass": {
         "name": "Tiger Grass",
@@ -1336,7 +1345,7 @@ plantdata = {
         "special": "Grass tiger grows over time",
         "family": "Enforce-mint",
         "description": "Tiger Grass spawns a tiger who leaps out to attack nearby zombies.",
-        "image": "/assets/plants/Tiger Grass.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Tiger Grass.png"
         },
     "tile turnip": {
         "name": "Tile Turnip",
@@ -1345,7 +1354,7 @@ plantdata = {
         "usage": "Single use, instant",
         "family" : "Enchant-mint",
         "description": "Tile Turnips create a Power Tile on planting.",
-        "image": "/assets/plants/Tile Turnip.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Tile Turnip.png"
         },
     "toadstool": {
         "name": "Toadstool",
@@ -1356,7 +1365,7 @@ plantdata = {
         "weakness": "Vulnerable while chewing",
         "family": "Enlighten-mint",
         "description": "Toadstools gulp down zombies whole, then produce sun.",
-        "image": "/assets/plants/Toadstool.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Toadstool.png"
         },
     "tumbleweed": {
         "name": "Tumbleweed",
@@ -1367,7 +1376,7 @@ plantdata = {
         "special": "Set aflame by Torchwood",
         "family": "Appease-mint",
         "description": "Tumbleweeds roar off down the lane, bouncing off zombies and knocking them back with a chance to stun or even flip them off the lawn.",
-        "image": "/assets/plants/Tumbleweed.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Tumbleweed.png"
         },
     "twin sunflower": {
         "name": "Twin Sunflower",
@@ -1376,7 +1385,7 @@ plantdata = {
         "toughness": "300",
         "family": "Enlighten-mint",
         "description": "Twin Sunflowers give twice as much sun as a normal sunflower.",
-        "image": "/assets/plants/Twin Sunflower.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Twin Sunflower.png"
         },
     "wall-nut": {
         "name": "Wall-nut",
@@ -1386,7 +1395,7 @@ plantdata = {
         "powerup": "Armor",
         "family": "Reinforce-mint",
         "description": "Wall-nuts have hard shells which you can use to protect your other plants.",
-        "image": "/assets/plants/Wall-nut.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Wall-nut.png"
         },
     "wasabi whip": {
         "name": "Wasabi Whip",
@@ -1397,7 +1406,7 @@ plantdata = {
         "special": "Resists cold and warms plants around it,(Immune to fire)",
         "family": "Enforce-mint",
         "description": "Wasabi Whips lash out with their flaming whips, delivering whuppings to zombies both in front and behind.",
-        "image": "/assets/plants/Wasabi Whip.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Wasabi Whip.png"
         },
     "winter melon": {
         "name": "Winter Melon",
@@ -1408,7 +1417,7 @@ plantdata = {
         "special": "Damaged enemies are also chilled",
         "family": "Winter-mint",
         "description": "Winter Melons do heavy damage and chills groups of zombies.",
-        "image": "/assets/plants/Winter Melon.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Winter Melon.png"
         },
     "winter-mint": {
         "name": "Winter-mint",
@@ -1417,7 +1426,7 @@ plantdata = {
         "duration": "10 seconds",
         "family": "Winter-mint",
         "description": "Winter-mints chill all zombies present on the board when planted and provide a temporary boost to all Winter-mint Family plants on the lawn.",
-        "image": "/assets/plants/Winter-mint.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Winter-mint.png"
         },
     "witch hazel": {
         "name": "Witch Hazel",
@@ -1427,7 +1436,7 @@ plantdata = {
         "weakness": "(Cannot be turned into a mushroom)",
         "family": "Enchant-mint",
         "description": "Witch Hazels use magical sorcery to transform zombies into Puff-shrooms.",
-        "image": "/assets/plants/Witch Hazel.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Witch Hazel.png"
         },
     "zoybean pod": {
         "name": "Zoybean Pod",
@@ -1435,6 +1444,6 @@ plantdata = {
         "recharge": "20 seconds",
         "family": "Enchant-mint",
         "description": "Zoybean Pods grow from sprouts to full pods, then split open to release helpful plant 'zomboids' which attack zombies.",
-        "image": "/assets/plants/Zoybean Pod.png"
+        "image": "https://pvz-2-api.vercel.app/assets/plants/Zoybean Pod.png"
         }
 }
