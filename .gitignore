@@ -2,28 +2,28 @@
 backend/venv/*
 backend/pvz/pvz/__pycache__/*
 
-# site (frontend) gitignore
+# frontend (frontend) gitignore
 # Logs
-site/logs
-site/*.log
-site/npm-debug.log*
-site/yarn-debug.log*
-site/yarn-error.log*
-site/pnpm-debug.log*
-site/lerna-debug.log*
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
 
-site/node_modules
-site/dist
-site/dist-ssr
-site/*.local
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
 
 # Editor directories and files
-site/.vscode/*
-site/!.vscode/extensions.json
-site/.idea
-site/.DS_Store
-site/*.suo
-site/*.ntvs*
-site/*.njsproj
-site/*.sln
-site/*.sw?
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
