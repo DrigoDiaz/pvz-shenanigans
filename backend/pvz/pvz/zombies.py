@@ -1178,13 +1178,239 @@ zombiedata = {
         "world" : "Neon Mixtape Tour",
         "special" : "Spawns Neon Mixtape Tour zombies, fires speakers to crush plants and deal passive damage to nearby plants, and sends shockwaves to wipe out a whole lane."
         },
-    "" : {
-        "name" : "",
-        "toughness" : "",
-        "speed" : "",
-        "description" : "",
-        "image" : "/assets/zombies/.png",
+    "jurassic zombie" : {
+        "name" : "Jurassic Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Jurassic Zombie is NOT primitive. See, he's wearing a tie and everything!",
+        "image" : "/assets/zombies/jurassic zombie.png",
         "world" : "Jurassic Marsh",
         "special" : "n/a"
         },
+    "jurassic conehead" : {
+        "name" : "Jurassic Conehead",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Jurassic Conehead Zombie is trying to get the jump on the whole 'traffic cone' idea. He figures it'll be a HUGE market in about 150 million years.",
+        "image" : "/assets/zombies/jurassic conehead.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "jurassic buckethead" : {
+        "name" : "Jurassic Buckethead",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "The real question, the burning mystery, is: where did he find blue fur for his outfit?",
+        "image" : "/assets/zombies/jurassic buckethead.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "jurassic fossilhead" : {
+        "name" : "Jurassic Fossilhead",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "Contrary to his name, Jurassic Fossilhead's fossil head isn't actually a fossil. That skull's maybe a week and a half old, tops.",
+        "image" : "/assets/zombies/jurassic fossilhead.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "amberhead zombie" : {
+        "name" : "Amberhead Zombie",
+        "toughness" : "Machined",
+        "speed" : "Basic",
+        "description" : "If you were to extract DNA from the Amberhead Zombie and combine it with the DNA of a frog, you'd be breaking the law at some point.",
+        "image" : "/assets/zombies/amberhead zombie.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "jurassic flag zombie" : {
+        "name" : "Jurassic Flag Zombie",
+        "toughness" : "Average",
+        "speed" : "Hungry",
+        "description" : "He's not only got a flag, but he's also got a can-do attitude and a fierce hunger for success. Success and brains.",
+        "image" : "/assets/zombies/jurassic flag zombie.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "jurassic rally zombie" : {
+        "name" : "Jurassic Rally Zombie",
+        "toughness" : "Dense",
+        "speed" : "Speedy",
+        "description" : "Where did Jurassic Rally Zombie get his fancy new flag? Nobody knows. It's a mystery. The police should look into it. Or maybe we could get a fund together and hire a detective. It's a real puzzle.",
+        "image" : "/assets/zombies/jurassic rally zombie.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "jurassic bully" : {
+        "name" : "Jurassic Bully",
+        "toughness" : "Hardened",
+        "speed" : "Stiff",
+        "description" : "Jurassic Bully is slow, stupid, and smells bad. But hey, at least he's punctual.",
+        "image" : "/assets/zombies/jurassic bully.png",
+        "world" : "Jurassic Marsh",
+        "special" : "Immune to Primal Peashooter's knockback"
+        },
+    "jurassic rockpuncher" : {
+        "name" : "Jurassic Rockpuncher",
+        "toughness" : "Machined",
+        "speed" : "Stiff",
+        "description" : "Somebody tied rocks to Jurassic Rockpuncher's hands. Being unable to remove them (because he had rocks tied to his hands), he was left with no choice but to roll with it.",
+        "image" : "/assets/zombies/jurassic rockpuncher.png",
+        "world" : "Jurassic Marsh",
+        "special" : "Immune to Primal Peashooter's knockback and crushes plants with the rocks tied to its hands."
+        },
+    "jurassic imp" : {
+        "name" : "Jurassic Imp",
+        "toughness" : "Fragile",
+        "speed" : "Speedy",
+        "description" : "This nasty little nipper can make a serious dent in your defenses if left to his own devious devices.",
+        "image" : "/assets/zombies/jurassic imp.png",
+        "world" : "Jurassic Marsh",
+        "special" : "n/a"
+        },
+    "jurassic gargantuar" : {
+        "name" : "Jurassic Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Still",
+        "description" : "Jurassic Gargantuar wonders how there can be zombies millions of years before the advent of humanity. He doesn't let it get in the way of his plant-bashing, though.",
+        "image" : "/assets/zombies/jurassic gargantuar.png",
+        "world" : "Jurassic Marsh",
+        "special" : "Crushes plants with a bone and launches Jurassic Imp when damaged"
+        },
+    "zombot dinotronic mechasaur" : {
+        "name" : "Zombot Dinotronic Mechasaur",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "With flagrant disregard for temporal tidiness and simple good taste, Dr. Zomboss figured it would be a good idea to build a big metal dinosaur.",
+        "image" : "/assets/zombies/zombot dinotronic mechasaur.png",
+        "world" : "Jurassic Marsh",
+        "special" : "Spawns Jurassic Marsh zombies, summons dinosaurs, fires missiles and lasers at plants."
+        },
+    "pompadour zombie" : {
+        "name" : "Pompadour Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Pompadour Zombie recently noticed that he was wearing only one flip-flop. He THINKS he lost the other one while doing the limbo at a bonfire party the other night. But to be honest, that entire night is a little hazy ... and that flip-flop could be anywhere.",
+        "image" : "/assets/zombies/pompadour zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+    "pompadour conehead" : {
+        "name" : "Pompadour Conehead",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Go to the beach, they said. Put a cone on your head, they said. So, yeah, that's what Pompadour Conehead did. He's at his best when following simple instructions.",
+        "image" : "/assets/zombies/pompadour conehead.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+    "pompadour buckethead" : {
+        "name" : "Pompadour Buckethead",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "Pompadour Buckethead tried to learn to play the ukelele. He figured it would be easier to learn than the guitar on account of how small it is. But his stiff fingers ... they just weren't made for it. Now he just bangs on his bucket. And he's not half-bad either.",
+        "image" : "/assets/zombies/pompadour buckethead.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+    "bikini zombie" : {
+        "name" : "Bikini Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Is it weird that we haven't seen any female zombies before? Some say yes. Some say no. Either way, Bikini Zombie is used to breaking new ground. She's not afraid to go where no woman zombie has gone before. You could call her a pioneer. You could call her a hero.",
+        "image" : "/assets/zombies/bikini zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+     "bikini conehead" : {
+        "name" : "Bikini Conehead",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "See that starfish on Bikini Conehead's cone? She put it there herself. She gets a lot of compliments on it too. And sure enough, now it seems like everyone is accessorizing with starfish. She's a trendsetter, that one.",
+        "image" : "/assets/zombies/bikini conehead.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+     "bikini buckethead" : {
+        "name" : "Bikini Buckethead",
+        "toughness" : "Hardened",
+        "speed" : "Basic",
+        "description" : "Bikini Buckethead had big ambitions. She wanted to do more than lurch around on a beach all day. Her life's dream: to perform internationally with a synchronized swimming team. Sadly, the nose plug was her undoing. If she only had a nose ...",
+        "image" : "/assets/zombies/bikini buckethead.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+     "beach flag zombie" : {
+        "name" : "Beach Flag Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Talk about a disgruntled zombie. Beach Flag Zombie is fed up. None of the other zombies seem to appreciate just how difficult it is for him to swim while holding a flag. Not once have they thanked him for doing the hard work that needs to be done. So it shouldn't come as a surprise: He's been interviewing for jobs somewhere else.",
+        "image" : "/assets/zombies/beach flag zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+    "snorkel zombie" : {
+        "name" : "Snorkel Zombie",
+        "toughness" : "Protected",
+        "speed" : "Basic",
+        "description" : "Snorkel Zombie has a hard time getting the Bikini Zombies. He's tried offering them flowers, jewelry, and even chocolate-covered brains. But nothing seems to work. They just can't seem to see past the snorkel on his face.",
+        "image" : "/assets/zombies/snorkel zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "Submerges underwater to avoid attacks"
+        },
+    "surfer zombie" : {
+        "name" : "Surfer Zombie",
+        "toughness" : "Dense",
+        "speed" : "Flighty",
+        "description" : "Surfer Zombie took up surfing just last year. At first, he only did it because he thought it would make him look cool. But he was a natural. Now he can hang 10 with the best of them. Now he's headed to the pro circuit. Now he IS cool.",
+        "image" : "/assets/zombies/surfer zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "Crushes plants with a surf board."
+        },
+    "fisherman zombie" : {
+        "name" : "Fisherman Zombie",
+        "toughness" : "Dense",
+        "speed" : "n/a",
+        "description" : "Everyone is tired of Fisherman Zombie's fishing stories. He's always bragging about the size of his catch. Time and time again, he claims to have caught 'the big one.' But the fact of the matter is, no one has seen him actually catch a fish. Not once. It's more than a little suspicious.",
+        "image" : "/assets/zombies/fisherman zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "Pulls plants toward the right until they have nowhere to be planted."
+        },
+    "octo zombie" : {
+        "name" : "Octo Zombie",
+        "toughness" : "Hardened",
+        "speed" : "Creeper",
+        "description" : "It started innocently enough. One day, Octo Zombie decided to get a pet octopus. But he loved that octopus so much, he got another and another... and another. Next thing you know, he was volunteering at an octopus rescue shelter. And now, well, no one wants to tell him, but he's pretty much the undersea equivalent of a cat lady. You should see how many are living at his house. It's quite startling.",
+        "image" : "/assets/zombies/octo zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "Throws octopi towards plants, making them trapped until the octopus is destroyed."
+        },
+    "imp mermaid zombie" : {
+        "name" : "Imp Mermaid Zombie",
+        "toughness" : "Average",
+        "speed" : "Basic",
+        "description" : "Imp Mermaid Zombie couldn't decide whether to wear the top made out of coconut shells or the top made out of seashells. She went with the slinky coconut-shell number because, really, the seashells are soooo last wave.",
+        "image" : "/assets/zombies/imp mermaid zombie.png",
+        "world" : "Big Wave Beach",
+        "special" : "n/a"
+        },
+    "deep sea gargantuar" : {
+        "name" : "Deep Sea Gargantuar",
+        "toughness" : "Great",
+        "speed" : "Hungry",
+        "description" : "This big guy loves the water. When he's deep down in it, he feels light as a feather. He feels like he's flying. Most importantly, during those precious moments, he feels as if the weight of Imp Mermaid Zombie has been lifted from his shoulders.",
+        "image" : "/assets/zombies/deep sea gargantuar.png",
+        "world" : "Big Wave Beach",
+        "special" : "Crushes plants with driftwood and launches a Imp Mermaid Zombie when damaged."
+        },
+    "zombot sharktronic sub" : {
+        "name" : "Zombot Sharktronic Sub",
+        "toughness" : "Undying",
+        "speed" : "Hungry",
+        "description" : "The Zombot Sharktronic Sub is a true labor of love. Dr. Zomboss obsessed over every detail of the aquatic mechanism of doom as he worked on it day in and day out from the wee hours of the morning until well after dark. He carefully handcrafted the shark's nearly impenetrable skin. He shaved each razor-sharp tooth to a point by hand. And he painstakingly installed the lethal plant-consuming fan inside the machines' horrific maw all by himself. Zomboss shed more than one tear of joy when his masterpiece was complete. Say what you will about the evil genius, but he is quite passionate about his projects.",
+        "image" : "/assets/zombies/zombot sharktronic sub.png",
+        "world" : "Big Wave Beach",
+        "special" : "Summons Big Wave Beach zombies, summons sharks, and pulls plants in with its mouth turbines."
+        },
+    
 }
