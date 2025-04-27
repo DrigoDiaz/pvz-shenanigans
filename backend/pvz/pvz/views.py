@@ -1,6 +1,8 @@
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 from .plants import plantdata
 
+@csrf_exempt
 def all_plants(request):
     if request.method == "GET":
         print("Getting all plant names")
@@ -145,7 +147,8 @@ def all_plants(request):
                 "zoybean pod"
                 ]
         return JsonResponse({"message": "Successfully retrieved all plant names!", "plants": plants}, status=200)
-        
+
+@csrf_exempt
 def plant_info(request):
     if request.method == "GET":
         print(request.GET["name"])
