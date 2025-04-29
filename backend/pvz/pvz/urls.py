@@ -1,4 +1,4 @@
-from .views import all_plants, plant_info
+from .views import all_plants, plant_info, all_zombies, zombie_info
 from django.urls import re_path
 
 """
@@ -23,5 +23,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('plants/all', all_plants),
-    re_path(r'plants/?$', plant_info)
+    re_path(r'plants/?$', plant_info),
+    path('zombies/all', all_zombies),
+    re_path(r'zombies/?$', zombie_info)
 ]

@@ -7,7 +7,6 @@ export default function SearchBar() {
   const theme = useTheme();
   const checkScreenSize = useMediaQuery(theme.breakpoints.down('sm'));
 
-
   return (
     <Box
       component="form"
